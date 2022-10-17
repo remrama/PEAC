@@ -1,0 +1,4 @@
+﻿key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,WelcomeText.started,WelcomeText.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,ConsentText.started,ConsentText.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+space,0.6812982079572976,5.758755417075008,None,,,,,,,,,,,,001,2022_Jun_03_1438,psychopy,2021.2.3,None,
+,,,,5.758755417075008,None,6.453119542100467,None,space,0.5426456669811159,6.950727125047706,None,,,,001,2022_Jun_03_1438,psychopy,2021.2.3,None,
+,,,,,,7.515419792034663,None,,,,,6.950727125047706,None,,,,,,,

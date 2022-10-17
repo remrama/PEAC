@@ -1,0 +1,6 @@
+﻿key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,WelcomeText.started,WelcomeText.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,ConsentText.started,ConsentText.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,InstructionText.started,InstructionText.stopped,key_resp_8.keys,key_resp_8.rt,key_resp_8.started,key_resp_8.stopped,text_7.started,text_7.stopped,participant,session,group,date,expName,psychopyVersion,frameRate,
+space,0.5919414160307497,8.531859791954048,None,,,,,,,,,,,,,,,,,,,,,,,,001,B,2022_Jun_08_2250,psychopy,2021.2.3,None,
+,,,,8.531859791954048,None,9.133764166967012,None,space,0.422246208996512,9.630453458055854,None,,,,,,,,,,,,,,,,001,B,2022_Jun_08_2250,psychopy,2021.2.3,None,
+,,,,,,10.076358666992746,None,,,,,9.630453458055854,None,space,0.29728666704613715,10.56563508301042,None,,,,,,,,,,001,B,2022_Jun_08_2250,psychopy,2021.2.3,None,
+,,,,,,10.868532874970697,None,,,,,,,,,,,10.56563508301042,None,space,0.38443916698452085,11.358049332979135,None,,,,001,B,2022_Jun_08_2250,psychopy,2021.2.3,None,
+,,,,,,11.761376000009477,None,,,,,,,,,,,,,,,,,11.358049332979135,None,,,,,,,,

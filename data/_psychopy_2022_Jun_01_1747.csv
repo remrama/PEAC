@@ -1,0 +1,6 @@
+﻿WordItem,WordColor,trialsStudy.thisRepN,trialsStudy.thisTrialN,trialsStudy.thisN,trialsStudy.thisIndex,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,WelcomeText.started,WelcomeText.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,ConsentText.started,ConsentText.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,InstructionText.started,InstructionText.stopped,text.started,text.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,space,0.6494907920132391,5.875785166979767,None,,,,,,,,,,,,,,,,,,001,2022_Jun_01_1747,psychopy,2021.2.3,None,
+,,,,,,,,,,5.875785166979767,None,space,1.0332787910010666,6.5380322089768015,None,,,,,,,,,,,,001,2022_Jun_01_1747,psychopy,2021.2.3,None,
+,,,,,,,,,,,,,,,,6.5380322089768015,7.526312624977436,space,3.635565917007625,7.592523666971829,None,,,,,,001,2022_Jun_01_1747,psychopy,2021.2.3,None,
+A,green,0,0,0,0,,,,,,,,,,,,,,,,,7.592523666971829,8.590180291968863,11.281655500002671,None,,001,2022_Jun_01_1747,psychopy,2021.2.3,None,
+D,blue,0,1,1,1,,,,,,,,,,,,,,,,,,,13.253551208996214,None,,001,2022_Jun_01_1747,psychopy,2021.2.3,None,

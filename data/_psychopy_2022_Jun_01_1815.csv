@@ -1,0 +1,5 @@
+﻿trialsOUTER.thisRepN,trialsOUTER.thisTrialN,trialsOUTER.thisN,trialsOUTER.thisIndex,WordItem,WordColor,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,WelcomeText.started,WelcomeText.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,ConsentText.started,ConsentText.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,InstructionText.started,InstructionText.stopped,text.started,text.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,space,0.33156441600294784,6.022268874978181,None,,,,,,,,,,,,,,,,,,,,001,2022_Jun_01_1815,psychopy,2021.2.3,None,
+,,,,,,,,,,6.022268874978181,None,6.369721208990086,None,space,0.2688090830342844,6.864295249979477,None,,,,,,,,,,,,001,2022_Jun_01_1815,psychopy,2021.2.3,None,
+,,,,,,,,,,,,7.160007333965041,None,,,,,6.864295249979477,None,space,0.23615595803130418,7.660016208945308,None,,,,,,001,2022_Jun_01_1815,psychopy,2021.2.3,None,
+,,,,,,,,,,,,10.412624999997206,None,,,,,,,,,,,7.660016208945308,None,8.423482958984096,None,,,,,,,
