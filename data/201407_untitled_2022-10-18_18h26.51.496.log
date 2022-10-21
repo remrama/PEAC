@@ -1,0 +1,31 @@
+1.5674 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5898 	INFO 	Loaded monitor calibration from ['2022_04_05 13:47']
+6.5586 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EBA5B4C310>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EBAAA47850>, multiSample=False, name='window1', numSamples=2, pos=(103, -1050), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5588 	EXP 	window1: mouseVisible = True
+6.5590 	EXP 	window1: mouseVisible = False
+6.5590 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.5590 	EXP 	window1: recordFrameIntervals = False
+6.7241 	EXP 	window1: recordFrameIntervals = True
+6.9076 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+6.9077 	EXP 	window1: recordFrameIntervals = False
+8.5021 	INFO 	keyboard.Keyboard is using iohub backend.
+8.5429 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128.0, units='height', win=Window(...))
+8.5432 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+8.5434 	EXP 	New trial (rep=0, index=0): None
+8.5683 	EXP 	grating: autoDraw = True
+8.5683 	EXP 	grating: tex = 'sin'
+9.5740 	EXP 	grating: autoDraw = False
+17.3400 	DATA 	joystick_0_button: 2, pos=(-0.0313,-0.0508)
+17.3440 	EXP 	New trial (rep=1, index=0): None
+17.3564 	EXP 	grating: autoDraw = False
+17.3564 	EXP 	grating: autoDraw = True
+18.3561 	EXP 	grating: autoDraw = False
+22.3567 	DATA 	joystick_0_button: 2, pos=(-0.0000,-0.0117)
+22.3595 	EXP 	New trial (rep=2, index=0): None
+22.3732 	EXP 	grating: autoDraw = False
+22.3732 	EXP 	grating: autoDraw = True
+22.4066 	DATA 	joystick_0_button: 0, pos=(-0.0438,-0.0039)
+22.4231 	EXP 	grating: autoDraw = False
+22.4256 	INFO 	saved data to 'C:\\Users\\cnl\\Desktop\\remy\\dani\\PEAC\\data/201407_untitled_2022-10-18_18h26.51.496.csv'
+22.4276 	INFO 	saved data to C:\Users\cnl\Desktop\remy\dani\PEAC\data/201407_untitled_2022-10-18_18h26.51.496.psydat
+22.4460 	EXP 	window1: mouseVisible = True

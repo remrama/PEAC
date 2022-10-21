@@ -1,0 +1,42 @@
+1.5857 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.3222 	INFO 	Loaded monitor calibration from ['2022_04_05 13:47']
+7.2896 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026B698ED190>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026B6E76A6A0>, multiSample=False, name='window1', numSamples=2, pos=(103, -1050), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.2897 	EXP 	window1: mouseVisible = True
+7.2898 	EXP 	window1: mouseVisible = False
+7.2898 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.2898 	EXP 	window1: recordFrameIntervals = False
+7.4550 	EXP 	window1: recordFrameIntervals = True
+7.6397 	EXP 	Screen (0) actual frame rate measured at 59.66Hz
+7.6398 	EXP 	window1: recordFrameIntervals = False
+9.2709 	INFO 	keyboard.Keyboard is using iohub backend.
+9.2737 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=0.0, dotLife=3.0, dotSize=2.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([1., 1.]), nDots=100, name='dots', noiseDots='direction', opacity=1.0, rgb=UNKNOWN, signalDots='same', speed=0.1, units='height', win=Window(...))
+9.3193 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128.0, units='height', win=Window(...))
+9.3219 	EXP 	Created noise = NoiseStim(__class__=<class 'psychopy.visual.noise.NoiseStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, interpolate=False, mask='none', maskParams=None, name='noise', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128, units='height', win=Window(...))
+9.3242 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+9.3244 	EXP 	New trial (rep=0, index=0): None
+9.3320 	EXP 	noise: blendmode = 'avg'
+9.3320 	EXP 	noise: mask = None
+9.3320 	EXP 	noise: texRes = 128
+9.3320 	EXP 	noise: noiseType = 'Binary'
+9.3320 	EXP 	noise: noiseImage = None
+9.3320 	EXP 	noise: noiseElementSize = [0.0625]
+9.3320 	EXP 	noise: noiseBaseSf = 8.0
+9.3320 	EXP 	noise: noiseBW = 1.0
+9.3320 	EXP 	noise: noiseBWO = 30.0
+9.3320 	EXP 	noise: noiseFractalPower = 0.0
+9.3320 	EXP 	noise: noiseFilterUpper = 8.0
+9.3320 	EXP 	noise: noiseFilterLower = 1.0
+9.3320 	EXP 	noise: noiseFilterOrder = 0.0
+9.3320 	EXP 	noise: noiseClip = 3.0
+9.3320 	EXP 	noise: filter = None
+9.3320 	EXP 	noise: tex = <class 'numpy.ndarray'>
+9.3320 	EXP 	noise: tex = <class 'numpy.ndarray'>
+9.3320 	EXP 	dots: autoDraw = True
+9.8581 	EXP 	dots: autoDraw = False
+9.8581 	EXP 	dots: autoDraw = False
+9.8581 	EXP 	grating: autoDraw = True
+9.8581 	EXP 	noise: autoDraw = True
+9.8581 	EXP 	grating: tex = 'sin'
+10.8616 	EXP 	window1: mouseVisible = True
+10.8638 	INFO 	saved data to C:\Users\cnl\Desktop\remy\dani\PEAC\data/050100_untitled_2022-10-18_18h58.45.574.psydat
+10.8647 	INFO 	saved data to 'C:\\Users\\cnl\\Desktop\\remy\\dani\\PEAC\\data/050100_untitled_2022-10-18_18h58.45.574.csv'
