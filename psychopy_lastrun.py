@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on October 21, 2022, at 18:40
+    on October 21, 2022, at 19:58
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -28,6 +28,10 @@ import sys  # to get file system encoding
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
+# Run 'Before Experiment' code from code
+my_xpositions_o = []
+my_ypositions_o = []
+my_times_o = []
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -70,6 +74,12 @@ from psychopy.hardware import joystick as joysticklib  # joystick/gamepad accsss
 from psychopy.experiment.components.joystick import virtualJoystick as virtualjoysticklib
 from psychopy.hardware import joystick as joysticklib  # joystick/gamepad accsss
 from psychopy.experiment.components.joyButtons import virtualJoyButtons as virtualjoybuttonslib
+from psychopy.hardware import joystick as joysticklib  # joystick/gamepad accsss
+from psychopy.experiment.components.joystick import virtualJoystick as virtualjoysticklib
+from psychopy.hardware import joystick as joysticklib  # joystick/gamepad accsss
+from psychopy.experiment.components.joystick import virtualJoystick as virtualjoysticklib
+from psychopy.hardware import joystick as joysticklib  # joystick/gamepad accsss
+from psychopy.experiment.components.joystick import virtualJoystick as virtualjoysticklib
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -144,7 +154,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 # --- Initialize components for Routine "GeneralInstructions" ---
 key_resp_3 = keyboard.Keyboard()
 InstructionText = visual.TextStim(win=win, name='InstructionText',
-    text='This experiment involves the use of image stimuli and a joystick. You will be presented with an image that will be either animate or inanimate, but not both. Please use your best judgment if this distinction seems unclear for any of the images. You will need to either push or pull the joystick, depending on whether the image is animate or inanimate. \n\nPress space bar to continue.',
+    text='This experiment involves the use of image stimuli and a joystick. You will be presented with an image that will be either animate or inanimate. If an image has both animate and inanimate beings, then mark the image as animate. Inanimate images will have no animate objects within it. \nNote that for the purpose of this experiment, “animate” generally refers to living things, such as humans or animals. However, plants and trees will be considered inanimate, along with desks, cars, and so on. Please use your best judgment if this distinction seems unclear for any of the images.\n\nPress space bar to continue.',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -163,7 +173,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 # --- Initialize components for Routine "GeneralInstructions2" ---
 key_resp_8 = keyboard.Keyboard()
 text_7 = visual.TextStim(win=win, name='text_7',
-    text='You will be instructed whether to push for animate or pull for animate (along with the instructions for inanimate images, which will be opposite that for animate images) before each phase of the experiment. There will be two phases of the experiment, with each phase containing a total of 90 images–10 of which will be practice images presented before the data collection begins. Please push or pull as quickly as possible, as your reaction time will be measured.\n\nPress space bar to continue. ',
+    text='You will be instructed whether to push the joystick AWAY from you for animate or pull it TOWARDS you for animate (along with the instructions for inanimate images, which will be opposite that for animate images) before each phase of the experiment. There will be two phases of the experiment, with each phase containing a total of 90 images–10 of which will be practice images presented before the data collection begins. Please push or pull as quickly as possible, as your reaction time will be measured.\n\nPress space bar to continue. ',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -181,7 +191,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # --- Initialize components for Routine "PracticeInstructions1" ---
 text_4 = visual.TextStim(win=win, name='text_4',
-    text='Next, you will begin the practice trial for this phase. Please push the joystick if you believe the image to be animate, or pull the joystick if you believe the image to be inanimate. \n\nPress space bar to continue. ',
+    text='Next, you will begin the practice trial for this phase. Please push the joystick AWAY from you if you believe the image to be ANIMATE, or pull the joystick TOWARDS you if you believe the image to be INANIMATE. Next, you will begin the practice trial for this phase.\n\nPress space bar to continue. ',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -250,7 +260,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # --- Initialize components for Routine "TestInstructions1" ---
 text_6 = visual.TextStim(win=win, name='text_6',
-    text='You will now be presented with the official images that will be used for data collection in this phase. Please inform the researcher if you have any questions thus far, and note that there will be a slight break after every 20 images.\n\nPress space bar to continue.',
+    text='You will now be presented with the official images that will be used for data collection in this phase. Please inform the researcher if you have any questions thus far.\n\nPress space bar to continue.',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -297,6 +307,45 @@ button_resp.status = None
 button_resp.clock = core.Clock()
 button_resp.numButtons = button_resp.device.getNumButtons()
 
+x, y = [None, None]
+joystick_4 = type('', (), {})() # Create an object to use as a name space
+joystick_4.device = None
+joystick_4.device_number = 0
+joystick_4.joystickClock = core.Clock()
+joystick_4.xFactor = 1
+joystick_4.yFactor = 1
+
+try:
+    numJoysticks = joysticklib.getNumJoysticks()
+    if numJoysticks > 0:
+        try:
+            joystickCache
+        except NameError:
+            joystickCache={}
+        if not 0 in joystickCache:
+            joystickCache[0] = joysticklib.Joystick(0)
+        joystick_4.device = joystickCache[0]
+        if win.units == 'height':
+            joystick_4.xFactor = 0.5 * win.size[0]/win.size[1]
+            joystick_4.yFactor = 0.5
+    else:
+        joystick_4.device = virtualjoysticklib.VirtualJoystick(0)
+        logging.warning("joystick_{}: Using keyboard+mouse emulation 'ctrl' + 'Alt' + digit.".format(joystick_4.device_number))
+except Exception:
+    pass
+    
+if not joystick_4.device:
+    logging.error('No joystick/gamepad device found.')
+    core.quit()
+
+joystick_4.status = None
+joystick_4.clock = core.Clock()
+joystick_4.numButtons = joystick_4.device.getNumButtons()
+joystick_4.getNumButtons = joystick_4.device.getNumButtons
+joystick_4.getAllButtons = joystick_4.device.getAllButtons
+joystick_4.getX = lambda: joystick_4.xFactor * joystick_4.device.getX()
+joystick_4.getY = lambda: joystick_4.yFactor * joystick_4.device.getY()
+
 
 # --- Initialize components for Routine "Blank500" ---
 text_2 = visual.TextStim(win=win, name='text_2',
@@ -309,7 +358,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # --- Initialize components for Routine "PracticeInstructions2" ---
 text_8 = visual.TextStim(win=win, name='text_8',
-    text='Next, you will begin the practice trial for this phase. Please push the joystick if you believe the image to be inanimate, or pull the joystick if you believe the image to be animate. \n\nPress space bar to continue. ',
+    text='Next, you will begin the practice trial for this phase. “Please push the joystick AWAY from you if you believe the image to be INANIMATE, or pull the joystick TOWARDS you if you believe the image to be ANIMATE. Next, you will begin the practice trial for this phase”.\n\nPress space bar to continue. ',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -327,6 +376,45 @@ image_7 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-1.0)
+x, y = [None, None]
+joystick_2 = type('', (), {})() # Create an object to use as a name space
+joystick_2.device = None
+joystick_2.device_number = 0
+joystick_2.joystickClock = core.Clock()
+joystick_2.xFactor = 1
+joystick_2.yFactor = 1
+
+try:
+    numJoysticks = joysticklib.getNumJoysticks()
+    if numJoysticks > 0:
+        try:
+            joystickCache
+        except NameError:
+            joystickCache={}
+        if not 0 in joystickCache:
+            joystickCache[0] = joysticklib.Joystick(0)
+        joystick_2.device = joystickCache[0]
+        if win.units == 'height':
+            joystick_2.xFactor = 0.5 * win.size[0]/win.size[1]
+            joystick_2.yFactor = 0.5
+    else:
+        joystick_2.device = virtualjoysticklib.VirtualJoystick(0)
+        logging.warning("joystick_{}: Using keyboard+mouse emulation 'ctrl' + 'Alt' + digit.".format(joystick_2.device_number))
+except Exception:
+    pass
+    
+if not joystick_2.device:
+    logging.error('No joystick/gamepad device found.')
+    core.quit()
+
+joystick_2.status = None
+joystick_2.clock = core.Clock()
+joystick_2.numButtons = joystick_2.device.getNumButtons()
+joystick_2.getNumButtons = joystick_2.device.getNumButtons
+joystick_2.getAllButtons = joystick_2.device.getAllButtons
+joystick_2.getX = lambda: joystick_2.xFactor * joystick_2.device.getX()
+joystick_2.getY = lambda: joystick_2.yFactor * joystick_2.device.getY()
+
 
 # --- Initialize components for Routine "Blank500" ---
 text_2 = visual.TextStim(win=win, name='text_2',
@@ -339,7 +427,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # --- Initialize components for Routine "TestInstructions2" ---
 text_9 = visual.TextStim(win=win, name='text_9',
-    text='You will now be presented with the official images that will be used for data collection in this phase. Please inform the researcher if you have any questions thus far, and note that there will be a slight break after every 20 images.\n\nPress space bar to continue. ',
+    text='You will now be presented with the official images that will be used for data collection in this phase. Please inform the researcher if you have any questions thus far.\n\nPress space bar to continue. ',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -357,6 +445,49 @@ image_6 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-1.0)
+x, y = [None, None]
+joystick_3 = type('', (), {})() # Create an object to use as a name space
+joystick_3.device = None
+joystick_3.device_number = 0
+joystick_3.joystickClock = core.Clock()
+joystick_3.xFactor = 1
+joystick_3.yFactor = 1
+
+try:
+    numJoysticks = joysticklib.getNumJoysticks()
+    if numJoysticks > 0:
+        try:
+            joystickCache
+        except NameError:
+            joystickCache={}
+        if not 0 in joystickCache:
+            joystickCache[0] = joysticklib.Joystick(0)
+        joystick_3.device = joystickCache[0]
+        if win.units == 'height':
+            joystick_3.xFactor = 0.5 * win.size[0]/win.size[1]
+            joystick_3.yFactor = 0.5
+    else:
+        joystick_3.device = virtualjoysticklib.VirtualJoystick(0)
+        logging.warning("joystick_{}: Using keyboard+mouse emulation 'ctrl' + 'Alt' + digit.".format(joystick_3.device_number))
+except Exception:
+    pass
+    
+if not joystick_3.device:
+    logging.error('No joystick/gamepad device found.')
+    core.quit()
+
+joystick_3.status = None
+joystick_3.clock = core.Clock()
+joystick_3.numButtons = joystick_3.device.getNumButtons()
+joystick_3.getNumButtons = joystick_3.device.getNumButtons
+joystick_3.getAllButtons = joystick_3.device.getAllButtons
+joystick_3.getX = lambda: joystick_3.xFactor * joystick_3.device.getX()
+joystick_3.getY = lambda: joystick_3.yFactor * joystick_3.device.getY()
+
+# Run 'Begin Experiment' code from code_2
+my_xpositions_r = []
+my_ypositions_r = []
+my_times_r = []
 
 # --- Initialize components for Routine "Blank500" ---
 text_2 = visual.TextStim(win=win, name='text_2',
@@ -1249,7 +1380,7 @@ for thisControlTaskOrder in controlTaskOrder:
             frameN = -1
             
             # --- Run Routine "ImageStudyTrial" ---
-            while continueRoutine:
+            while continueRoutine and routineTimer.getTime() < 1.0:
                 # get current time
                 t = routineTimer.getTime()
                 tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1267,6 +1398,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     # add timestamp to datafile
                     thisExp.timestampOnFlip(win, 'image.started')
                     image.setAutoDraw(True)
+                if image.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > image.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        image.tStop = t  # not accounting for scr refresh
+                        image.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'image.stopped')
+                        image.setAutoDraw(False)
                 
                 # *key_resp_7* updates
                 waitOnFlip = False
@@ -1283,6 +1423,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     waitOnFlip = True
                     win.callOnFlip(key_resp_7.clock.reset)  # t=0 on next screen flip
                     win.callOnFlip(key_resp_7.clearEvents, eventType='keyboard')  # clear events on next screen flip
+                if key_resp_7.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_resp_7.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_resp_7.tStop = t  # not accounting for scr refresh
+                        key_resp_7.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'key_resp_7.stopped')
+                        key_resp_7.status = FINISHED
                 if key_resp_7.status == STARTED and not waitOnFlip:
                     theseKeys = key_resp_7.getKeys(keyList=['1','2'], waitRelease=False)
                     _key_resp_7_allKeys.extend(theseKeys)
@@ -1296,38 +1445,6 @@ for thisControlTaskOrder in controlTaskOrder:
                             key_resp_7.corr = 0
                         # a response ends the routine
                         continueRoutine = False
-                # *joystick* updates
-                if joystick.status == NOT_STARTED and t >= 0.0-frameTolerance:
-                    # keep track of start time/frame for later
-                    joystick.frameNStart = frameN  # exact frame index
-                    joystick.tStart = t  # local t and not account for scr refresh
-                    joystick.tStartRefresh = tThisFlipGlobal  # on global time
-                    win.timeOnFlip(joystick, 'tStartRefresh')  # time at next scr refresh
-                    # add timestamp to datafile
-                    thisExp.addData('joystick.started', t)
-                    joystick.status = STARTED
-                    joystick.joystickClock.reset()
-                if joystick.status == STARTED:
-                    # is it time to stop? (based on global clock, using actual start)
-                    if tThisFlipGlobal > joystick.tStartRefresh + 2-frameTolerance:
-                        # keep track of stop time/frame for later
-                        joystick.tStop = t  # not accounting for scr refresh
-                        joystick.frameNStop = frameN  # exact frame index
-                        # add timestamp to datafile
-                        thisExp.addData('joystick.stopped', t)
-                        joystick.status = FINISHED
-                if joystick.status == STARTED:  # only update if started and not finished!
-                    joystick.newButtonState = joystick.getAllButtons()[:]
-                    if joystick.newButtonState != joystick.oldButtonState: # New button press
-                        joystick.pressedButtons = [i for i in range(joystick.numButtons) if joystick.newButtonState[i] and not joystick.oldButtonState[i]]
-                        joystick.releasedButtons = [i for i in range(joystick.numButtons) if not joystick.newButtonState[i] and joystick.oldButtonState[i]]
-                        joystick.newPressedButtons = [i for i in joystick.activeButtons if i in joystick.pressedButtons]
-                        joystick.oldButtonState = joystick.newButtonState
-                        joystick.buttons = joystick.newPressedButtons
-                        [logging.data("joystick_{}_button: {}, pos=({:1.4f},{:1.4f})".format(joystick.device_number, i, joystick.getX(), joystick.getY())) for i in joystick.pressedButtons]
-                        if len(joystick.buttons) > 0:  # state changed to a new click
-                            # abort routine on response
-                            continueRoutine = False
                 
                 # check for quit (typically the Esc key)
                 if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1374,8 +1491,11 @@ for thisControlTaskOrder in controlTaskOrder:
             trialsStudyImages.addData('joystick.y', y)
             [trialsStudyImages.addData('joystick.button_{0}'.format(i), int(joystick.pressedState[i])) for i in joystick.activeButtons]
             trialsStudyImages.addData('joystick.time', joystick.time)
-            # the Routine "ImageStudyTrial" was not non-slip safe, so reset the non-slip timer
-            routineTimer.reset()
+            # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+            if routineForceEnded:
+                routineTimer.reset()
+            else:
+                routineTimer.addTime(-1.000000)
             
             # --- Prepare to start Routine "Blank500" ---
             continueRoutine = True
@@ -1555,7 +1675,7 @@ for thisControlTaskOrder in controlTaskOrder:
         # set up handler to look after randomisation of conditions etc
         trialsOriginal = data.TrialHandler(nReps=1.0, method='random', 
             extraInfo=expInfo, originPath=-1,
-            trialList=data.importConditions('ImageTests1.xlsx', selection='0:20'),
+            trialList=data.importConditions('Original_Compiled_IAT.xlsx', selection='0:80'),
             seed=None, name='trialsOriginal')
         thisExp.addLoop(trialsOriginal)  # add the loop to the experiment
         thisTrialsOriginal = trialsOriginal.trialList[0]  # so we can initialise stimuli with some values
@@ -1582,8 +1702,12 @@ for thisControlTaskOrder in controlTaskOrder:
             button_resp.oldButtonState = button_resp.device.getAllButtons()[:]
             button_resp.keys = []
             button_resp.rt = []
+            joystick_4.oldButtonState = joystick_4.device.getAllButtons()[:]
+            joystick_4.activeButtons=[i for i in range(joystick_4.numButtons)]
+            # setup some python lists for storing info about the joystick_4
+            gotValidClick = False  # until a click is received
             # keep track of which components have finished
-            ImageTests1Components = [image_2, key_resp_9, button_resp]
+            ImageTests1Components = [image_2, key_resp_9, button_resp, joystick_4]
             for thisComponent in ImageTests1Components:
                 thisComponent.tStart = None
                 thisComponent.tStop = None
@@ -1597,7 +1721,7 @@ for thisControlTaskOrder in controlTaskOrder:
             frameN = -1
             
             # --- Run Routine "ImageTests1" ---
-            while continueRoutine:
+            while continueRoutine and routineTimer.getTime() < 1.0:
                 # get current time
                 t = routineTimer.getTime()
                 tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1615,6 +1739,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     # add timestamp to datafile
                     thisExp.timestampOnFlip(win, 'image_2.started')
                     image_2.setAutoDraw(True)
+                if image_2.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > image_2.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        image_2.tStop = t  # not accounting for scr refresh
+                        image_2.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'image_2.stopped')
+                        image_2.setAutoDraw(False)
                 
                 # *key_resp_9* updates
                 waitOnFlip = False
@@ -1631,6 +1764,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     waitOnFlip = True
                     win.callOnFlip(key_resp_9.clock.reset)  # t=0 on next screen flip
                     win.callOnFlip(key_resp_9.clearEvents, eventType='keyboard')  # clear events on next screen flip
+                if key_resp_9.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_resp_9.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_resp_9.tStop = t  # not accounting for scr refresh
+                        key_resp_9.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'key_resp_9.stopped')
+                        key_resp_9.status = FINISHED
                 if key_resp_9.status == STARTED and not waitOnFlip:
                     theseKeys = key_resp_9.getKeys(keyList=['1','2'], waitRelease=False)
                     _key_resp_9_allKeys.extend(theseKeys)
@@ -1659,7 +1801,7 @@ for thisControlTaskOrder in controlTaskOrder:
                     win.callOnFlip(button_resp.clock.reset)  # t=0 on next screen flip
                 if button_resp.status == STARTED:
                     # is it time to stop? (based on global clock, using actual start)
-                    if tThisFlipGlobal > button_resp.tStartRefresh + 2-frameTolerance:
+                    if tThisFlipGlobal > button_resp.tStartRefresh + 1-frameTolerance:
                         # keep track of stop time/frame for later
                         button_resp.tStop = t  # not accounting for scr refresh
                         button_resp.frameNStop = frameN  # exact frame index
@@ -1683,6 +1825,15 @@ for thisControlTaskOrder in controlTaskOrder:
                         button_resp.rt = button_resp.clock.getTime()
                         # a response ends the routine
                         continueRoutine = False
+                # Run 'Each Frame' code from code
+                myx_o = joystick.getX()
+                myy_o = joystick.getY()
+                myt_o = joystick.joystickClock.getTime()
+                
+                
+                my_xpositions_o.append(myx_o)
+                my_ypositions_o.append(myy_o)
+                my_times_o.append(myt_o)
                 
                 # check for quit (typically the Esc key)
                 if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1725,8 +1876,25 @@ for thisControlTaskOrder in controlTaskOrder:
             trialsOriginal.addData('button_resp.keys',button_resp.keys)
             if button_resp.keys != None:  # we had a response
                 trialsOriginal.addData('button_resp.rt', button_resp.rt)
-            # the Routine "ImageTests1" was not non-slip safe, so reset the non-slip timer
-            routineTimer.reset()
+            # store data for trialsOriginal (TrialHandler)
+            # store data for trialsOriginal (TrialHandler)
+            x, y = joystick_4.getX(), joystick_4.getY()
+            joystick_4.newButtonState = joystick_4.getAllButtons()[:]
+            joystick_4.pressedState = [joystick_4.newButtonState[i] for i in range(joystick_4.numButtons)]
+            joystick_4.time = joystick_4.joystickClock.getTime()
+            trialsOriginal.addData('joystick_4.x', x)
+            trialsOriginal.addData('joystick_4.y', y)
+            [trialsOriginal.addData('joystick_4.button_{0}'.format(i), int(joystick_4.pressedState[i])) for i in joystick_4.activeButtons]
+            trialsOriginal.addData('joystick_4.time', joystick_4.time)
+            # Run 'End Routine' code from code
+            trialsOriginal.addData("joystick.x_o", my_xpositions_o)
+            trialsOriginal.addData("joystick.y_o", my_ypositions_o)
+            trialsOriginal.addData("joystick.t_o", my_times_o)
+            # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+            if routineForceEnded:
+                routineTimer.reset()
+            else:
+                routineTimer.addTime(-1.000000)
             
             # --- Prepare to start Routine "Blank500" ---
             continueRoutine = True
@@ -1953,8 +2121,12 @@ for thisControlTaskOrder in controlTaskOrder:
             key_resp_14.rt = []
             _key_resp_14_allKeys = []
             image_7.setImage(ImageFile)
+            joystick_2.oldButtonState = joystick_2.device.getAllButtons()[:]
+            joystick_2.activeButtons=[i for i in range(joystick_2.numButtons)]
+            # setup some python lists for storing info about the joystick_2
+            gotValidClick = False  # until a click is received
             # keep track of which components have finished
-            StudyTrial2Components = [key_resp_14, image_7]
+            StudyTrial2Components = [key_resp_14, image_7, joystick_2]
             for thisComponent in StudyTrial2Components:
                 thisComponent.tStart = None
                 thisComponent.tStop = None
@@ -1968,7 +2140,7 @@ for thisControlTaskOrder in controlTaskOrder:
             frameN = -1
             
             # --- Run Routine "StudyTrial2" ---
-            while continueRoutine:
+            while continueRoutine and routineTimer.getTime() < 1.0:
                 # get current time
                 t = routineTimer.getTime()
                 tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1991,6 +2163,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     waitOnFlip = True
                     win.callOnFlip(key_resp_14.clock.reset)  # t=0 on next screen flip
                     win.callOnFlip(key_resp_14.clearEvents, eventType='keyboard')  # clear events on next screen flip
+                if key_resp_14.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_resp_14.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_resp_14.tStop = t  # not accounting for scr refresh
+                        key_resp_14.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'key_resp_14.stopped')
+                        key_resp_14.status = FINISHED
                 if key_resp_14.status == STARTED and not waitOnFlip:
                     theseKeys = key_resp_14.getKeys(keyList=['1','2'], waitRelease=False)
                     _key_resp_14_allKeys.extend(theseKeys)
@@ -2010,6 +2191,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     # add timestamp to datafile
                     thisExp.timestampOnFlip(win, 'image_7.started')
                     image_7.setAutoDraw(True)
+                if image_7.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > image_7.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        image_7.tStop = t  # not accounting for scr refresh
+                        image_7.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'image_7.stopped')
+                        image_7.setAutoDraw(False)
                 
                 # check for quit (typically the Esc key)
                 if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -2039,8 +2229,21 @@ for thisControlTaskOrder in controlTaskOrder:
             trialsStudyImages2.addData('key_resp_14.keys',key_resp_14.keys)
             if key_resp_14.keys != None:  # we had a response
                 trialsStudyImages2.addData('key_resp_14.rt', key_resp_14.rt)
-            # the Routine "StudyTrial2" was not non-slip safe, so reset the non-slip timer
-            routineTimer.reset()
+            # store data for trialsStudyImages2 (TrialHandler)
+            # store data for trialsStudyImages2 (TrialHandler)
+            x, y = joystick_2.getX(), joystick_2.getY()
+            joystick_2.newButtonState = joystick_2.getAllButtons()[:]
+            joystick_2.pressedState = [joystick_2.newButtonState[i] for i in range(joystick_2.numButtons)]
+            joystick_2.time = joystick_2.joystickClock.getTime()
+            trialsStudyImages2.addData('joystick_2.x', x)
+            trialsStudyImages2.addData('joystick_2.y', y)
+            [trialsStudyImages2.addData('joystick_2.button_{0}'.format(i), int(joystick_2.pressedState[i])) for i in joystick_2.activeButtons]
+            trialsStudyImages2.addData('joystick_2.time', joystick_2.time)
+            # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+            if routineForceEnded:
+                routineTimer.reset()
+            else:
+                routineTimer.addTime(-1.000000)
             
             # --- Prepare to start Routine "Blank500" ---
             continueRoutine = True
@@ -2220,7 +2423,7 @@ for thisControlTaskOrder in controlTaskOrder:
         # set up handler to look after randomisation of conditions etc
         trialsReversed = data.TrialHandler(nReps=1.0, method='random', 
             extraInfo=expInfo, originPath=-1,
-            trialList=data.importConditions('ImageTests1_Reversed.xlsx', selection='0:80'),
+            trialList=data.importConditions('Reversed_Compiled_IAT.xlsx', selection='0:80'),
             seed=None, name='trialsReversed')
         thisExp.addLoop(trialsReversed)  # add the loop to the experiment
         thisTrialsReversed = trialsReversed.trialList[0]  # so we can initialise stimuli with some values
@@ -2244,8 +2447,12 @@ for thisControlTaskOrder in controlTaskOrder:
             key_resp_16.rt = []
             _key_resp_16_allKeys = []
             image_6.setImage(ImageFile)
+            joystick_3.oldButtonState = joystick_3.device.getAllButtons()[:]
+            joystick_3.activeButtons=[i for i in range(joystick_3.numButtons)]
+            # setup some python lists for storing info about the joystick_3
+            gotValidClick = False  # until a click is received
             # keep track of which components have finished
-            ImageTest5Components = [key_resp_16, image_6]
+            ImageTest5Components = [key_resp_16, image_6, joystick_3]
             for thisComponent in ImageTest5Components:
                 thisComponent.tStart = None
                 thisComponent.tStop = None
@@ -2259,7 +2466,7 @@ for thisControlTaskOrder in controlTaskOrder:
             frameN = -1
             
             # --- Run Routine "ImageTest5" ---
-            while continueRoutine:
+            while continueRoutine and routineTimer.getTime() < 1.0:
                 # get current time
                 t = routineTimer.getTime()
                 tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -2282,6 +2489,15 @@ for thisControlTaskOrder in controlTaskOrder:
                     waitOnFlip = True
                     win.callOnFlip(key_resp_16.clock.reset)  # t=0 on next screen flip
                     win.callOnFlip(key_resp_16.clearEvents, eventType='keyboard')  # clear events on next screen flip
+                if key_resp_16.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_resp_16.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_resp_16.tStop = t  # not accounting for scr refresh
+                        key_resp_16.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'key_resp_16.stopped')
+                        key_resp_16.status = FINISHED
                 if key_resp_16.status == STARTED and not waitOnFlip:
                     theseKeys = key_resp_16.getKeys(keyList=['1','2'], waitRelease=False)
                     _key_resp_16_allKeys.extend(theseKeys)
@@ -2306,6 +2522,23 @@ for thisControlTaskOrder in controlTaskOrder:
                     # add timestamp to datafile
                     thisExp.timestampOnFlip(win, 'image_6.started')
                     image_6.setAutoDraw(True)
+                if image_6.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > image_6.tStartRefresh + 1-frameTolerance:
+                        # keep track of stop time/frame for later
+                        image_6.tStop = t  # not accounting for scr refresh
+                        image_6.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'image_6.stopped')
+                        image_6.setAutoDraw(False)
+                # Run 'Each Frame' code from code_2
+                myx_r = joystick.getX()
+                myy_r = joystick.getY()
+                myt_r = joystick.joystickClock.getTime()
+                
+                my_xpositions_r.append(myx_r)
+                my_ypositions_r.append(myy_r)
+                my_times_r.append(myt_r)
                 
                 # check for quit (typically the Esc key)
                 if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -2342,8 +2575,25 @@ for thisControlTaskOrder in controlTaskOrder:
             trialsReversed.addData('key_resp_16.corr', key_resp_16.corr)
             if key_resp_16.keys != None:  # we had a response
                 trialsReversed.addData('key_resp_16.rt', key_resp_16.rt)
-            # the Routine "ImageTest5" was not non-slip safe, so reset the non-slip timer
-            routineTimer.reset()
+            # store data for trialsReversed (TrialHandler)
+            # store data for trialsReversed (TrialHandler)
+            x, y = joystick_3.getX(), joystick_3.getY()
+            joystick_3.newButtonState = joystick_3.getAllButtons()[:]
+            joystick_3.pressedState = [joystick_3.newButtonState[i] for i in range(joystick_3.numButtons)]
+            joystick_3.time = joystick_3.joystickClock.getTime()
+            trialsReversed.addData('joystick_3.x', x)
+            trialsReversed.addData('joystick_3.y', y)
+            [trialsReversed.addData('joystick_3.button_{0}'.format(i), int(joystick_3.pressedState[i])) for i in joystick_3.activeButtons]
+            trialsReversed.addData('joystick_3.time', joystick_3.time)
+            # Run 'End Routine' code from code_2
+            trialsOriginal.addData("joystick.x_r", my_xpositions_r)
+            trialsOriginal.addData("joystick.y_r", my_ypositions_r)
+            trialsOriginal.addData("joystick.t_r", my_times_r)
+            # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+            if routineForceEnded:
+                routineTimer.reset()
+            else:
+                routineTimer.addTime(-1.000000)
             
             # --- Prepare to start Routine "Blank500" ---
             continueRoutine = True

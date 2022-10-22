@@ -1,0 +1,58 @@
+1.5808 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.2404 	INFO 	Loaded monitor calibration from ['2022_04_05 13:47']
+14.2121 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000014D3983D1C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000014D3E6FF6A0>, multiSample=False, name='window1', numSamples=2, pos=(103, -1050), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.2123 	EXP 	window1: mouseVisible = True
+14.2124 	EXP 	window1: mouseVisible = False
+14.2124 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.2125 	EXP 	window1: recordFrameIntervals = False
+14.3771 	EXP 	window1: recordFrameIntervals = True
+14.5602 	EXP 	Screen (0) actual frame rate measured at 60.14Hz
+14.5602 	EXP 	window1: recordFrameIntervals = False
+16.1578 	INFO 	keyboard.Keyboard is using iohub backend.
+16.1631 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=0.0, dotLife=3.0, dotSize=2.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([1., 1.]), nDots=100, name='dots', noiseDots='direction', opacity=1.0, rgb=UNKNOWN, signalDots='same', speed=0.1, units='height', win=Window(...))
+16.2082 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128.0, units='height', win=Window(...))
+16.2111 	EXP 	Created noise = NoiseStim(__class__=<class 'psychopy.visual.noise.NoiseStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, interpolate=False, mask='none', maskParams=None, name='noise', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.5, 0.5]), tex='sin', texRes=128, units='height', win=Window(...))
+16.2137 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+16.2139 	EXP 	New trial (rep=0, index=0): None
+16.2216 	EXP 	noise: blendmode = 'avg'
+16.2216 	EXP 	noise: mask = None
+16.2216 	EXP 	noise: texRes = 128
+16.2216 	EXP 	noise: noiseType = 'Binary'
+16.2216 	EXP 	noise: noiseImage = None
+16.2216 	EXP 	noise: noiseElementSize = [0.0625]
+16.2216 	EXP 	noise: noiseBaseSf = 8.0
+16.2216 	EXP 	noise: noiseBW = 1.0
+16.2216 	EXP 	noise: noiseBWO = 30.0
+16.2216 	EXP 	noise: noiseFractalPower = 0.0
+16.2216 	EXP 	noise: noiseFilterUpper = 8.0
+16.2216 	EXP 	noise: noiseFilterLower = 1.0
+16.2216 	EXP 	noise: noiseFilterOrder = 0.0
+16.2216 	EXP 	noise: noiseClip = 3.0
+16.2216 	EXP 	noise: filter = None
+16.2216 	EXP 	noise: tex = <class 'numpy.ndarray'>
+16.2216 	EXP 	noise: tex = <class 'numpy.ndarray'>
+16.2216 	EXP 	dots: autoDraw = True
+16.7398 	EXP 	dots: autoDraw = False
+16.7398 	EXP 	dots: autoDraw = False
+16.7398 	EXP 	grating: autoDraw = True
+16.7398 	EXP 	noise: autoDraw = True
+16.7398 	EXP 	grating: tex = 'sin'
+17.7280 	EXP 	New trial (rep=1, index=0): None
+17.7429 	EXP 	grating: autoDraw = False
+17.7429 	EXP 	noise: autoDraw = False
+17.7429 	EXP 	dots: autoDraw = True
+18.2428 	EXP 	dots: autoDraw = False
+18.2428 	EXP 	grating: autoDraw = True
+18.2428 	EXP 	noise: autoDraw = True
+19.2334 	EXP 	New trial (rep=2, index=0): None
+19.2440 	EXP 	grating: autoDraw = False
+19.2440 	EXP 	noise: autoDraw = False
+19.2440 	EXP 	dots: autoDraw = True
+19.7428 	EXP 	dots: autoDraw = False
+19.7428 	EXP 	grating: autoDraw = True
+19.7428 	EXP 	noise: autoDraw = True
+20.7431 	EXP 	grating: autoDraw = False
+20.7431 	EXP 	noise: autoDraw = False
+20.7468 	INFO 	saved data to 'C:\\Users\\cnl\\Desktop\\remy\\dani\\PEAC\\data/_untitled_2022-10-21_19h17.39.521.csv'
+20.7507 	INFO 	saved data to C:\Users\cnl\Desktop\remy\dani\PEAC\data/_untitled_2022-10-21_19h17.39.521.psydat
+20.7680 	EXP 	window1: mouseVisible = True

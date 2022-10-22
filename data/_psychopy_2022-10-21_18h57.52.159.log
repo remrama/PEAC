@@ -1,0 +1,1539 @@
+1.6547 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.1770 	WARNING 	User requested fullscreen with size [1728 1117], but screen is actually [1680, 1050]. Using actual size
+8.1489 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021E58F51460>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021E5C2CFEB0>, multiSample=False, name='window1', numSamples=2, pos=(103, -1050), screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.1497 	EXP 	window1: mouseVisible = True
+8.1500 	EXP 	window1: mouseVisible = False
+8.1500 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.1500 	EXP 	window1: recordFrameIntervals = False
+8.3135 	EXP 	window1: recordFrameIntervals = True
+8.4979 	EXP 	Screen (0) actual frame rate measured at 59.56Hz
+8.4980 	EXP 	window1: recordFrameIntervals = False
+10.2763 	EXP 	Created WelcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='WelcomeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2774 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.2967 	EXP 	Created ConsentText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ConsentText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2974 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.3083 	EXP 	Created InstructionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='InstructionText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3090 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.3247 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3254 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.3327 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3392 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.3781 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.3874 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3897 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.4081 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4155 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4190 	EXP 	Created image_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.4197 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4272 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4303 	EXP 	Created image_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.4310 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4472 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4528 	EXP 	WelcomeText: autoDraw = True
+239.2178 	DATA 	Keypress: space
+239.2179 	DATA 	Keypress: n
+239.2302 	EXP 	WelcomeText: autoDraw = False
+239.2302 	EXP 	text_2: autoDraw = True
+239.7302 	EXP 	text_2: autoDraw = False
+239.7302 	EXP 	text_2: autoDraw = False
+239.7302 	EXP 	ConsentText: autoDraw = True
+240.2323 	DATA 	Keypress: space
+240.2465 	EXP 	ConsentText: autoDraw = False
+240.2465 	EXP 	text_2: autoDraw = True
+240.7470 	EXP 	text_2: autoDraw = False
+240.7470 	EXP 	text_2: autoDraw = False
+240.7470 	EXP 	InstructionText: autoDraw = True
+241.0997 	DATA 	Keypress: space
+241.1136 	EXP 	InstructionText: autoDraw = False
+241.1136 	EXP 	text_2: autoDraw = True
+241.6132 	EXP 	text_2: autoDraw = False
+241.6132 	EXP 	text_2: autoDraw = False
+241.6132 	EXP 	text_7: autoDraw = True
+242.0514 	DATA 	Keypress: space
+242.0637 	EXP 	text_7: autoDraw = False
+242.0637 	EXP 	text_2: autoDraw = True
+242.5619 	EXP 	Imported conditionsA.xlsx as conditions, 2 conditions, 2 params
+242.5624 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+242.5626 	EXP 	New trial (rep=0, index=0): {'nRepsTask1': 0, 'nRepsTask2': 1}
+242.5629 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+242.5631 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+242.5632 	EXP 	New trial (rep=0, index=0): None
+242.5700 	EXP 	text_2: autoDraw = False
+242.5700 	EXP 	text_2: autoDraw = False
+242.5700 	EXP 	text_8: autoDraw = True
+243.0266 	EXP 	Imported ImagePractices2_inherently_reversed.xlsx as conditions, 10 conditions, 2 params
+243.0271 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+243.0273 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'Images/Rocks 3.jpg', 'AnimateInanimate': 1}
+243.0563 	DATA 	Keypress: space
+243.0601 	EXP 	text_8: autoDraw = False
+243.0601 	EXP 	image_7: image = 'Images/Rocks 3.jpg'
+243.0601 	EXP 	image_7: autoDraw = True
+244.0479 	EXP 	image_7: autoDraw = False
+244.0479 	EXP 	text_2: autoDraw = True
+244.5312 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'Images/Pigeon 4.jpg', 'AnimateInanimate': 2}
+244.5474 	EXP 	text_2: autoDraw = False
+244.5474 	EXP 	image_7: image = 'Images/Pigeon 4.jpg'
+244.5474 	EXP 	image_7: autoDraw = True
+245.3689 	DATA 	Keypress: 1
+245.3804 	EXP 	image_7: autoDraw = False
+245.3804 	EXP 	text_2: autoDraw = True
+245.8639 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'Images/Storage 3.jpg', 'AnimateInanimate': 1}
+245.8800 	EXP 	text_2: autoDraw = False
+245.8800 	EXP 	text_2: autoDraw = False
+245.8800 	EXP 	image_7: image = 'Images/Storage 3.jpg'
+245.8800 	EXP 	image_7: autoDraw = True
+246.1685 	DATA 	Keypress: 2
+246.1804 	EXP 	image_7: autoDraw = False
+246.1804 	EXP 	text_2: autoDraw = True
+246.6648 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'Images/Surprise 2.jpg', 'AnimateInanimate': 2}
+246.6815 	EXP 	text_2: autoDraw = False
+246.6815 	EXP 	text_2: autoDraw = False
+246.6815 	EXP 	image_7: image = 'Images/Surprise 2.jpg'
+246.6815 	EXP 	image_7: autoDraw = True
+246.9011 	DATA 	Keypress: 1
+246.9136 	EXP 	image_7: autoDraw = False
+246.9136 	EXP 	text_2: autoDraw = True
+247.3982 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'Images/Socks 1.jpg', 'AnimateInanimate': 1}
+247.4138 	EXP 	text_2: autoDraw = False
+247.4138 	EXP 	text_2: autoDraw = False
+247.4138 	EXP 	image_7: image = 'Images/Socks 1.jpg'
+247.4138 	EXP 	image_7: autoDraw = True
+247.5516 	DATA 	Keypress: 1
+247.5637 	EXP 	image_7: autoDraw = False
+247.5637 	EXP 	text_2: autoDraw = True
+248.0483 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'Images/Tiger 2.jpg', 'AnimateInanimate': 2}
+248.0659 	EXP 	text_2: autoDraw = False
+248.0659 	EXP 	text_2: autoDraw = False
+248.0659 	EXP 	image_7: image = 'Images/Tiger 2.jpg'
+248.0659 	EXP 	image_7: autoDraw = True
+248.1512 	DATA 	Keypress: 1
+248.1636 	EXP 	image_7: autoDraw = False
+248.1636 	EXP 	text_2: autoDraw = True
+248.6482 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'Images/Shark 7.jpg', 'AnimateInanimate': 2}
+248.6638 	EXP 	text_2: autoDraw = False
+248.6638 	EXP 	text_2: autoDraw = False
+248.6638 	EXP 	image_7: image = 'Images/Shark 7.jpg'
+248.6638 	EXP 	image_7: autoDraw = True
+248.7678 	DATA 	Keypress: 1
+248.7803 	EXP 	image_7: autoDraw = False
+248.7803 	EXP 	text_2: autoDraw = True
+249.2656 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'Images/Sad face 1.jpg', 'AnimateInanimate': 2}
+249.2826 	EXP 	text_2: autoDraw = False
+249.2826 	EXP 	text_2: autoDraw = False
+249.2826 	EXP 	image_7: image = 'Images/Sad face 1.jpg'
+249.2826 	EXP 	image_7: autoDraw = True
+249.3862 	DATA 	Keypress: 1
+249.3974 	EXP 	image_7: autoDraw = False
+249.3974 	EXP 	text_2: autoDraw = True
+249.8805 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'Images/Yarn 4.jpg', 'AnimateInanimate': 1}
+249.8967 	EXP 	text_2: autoDraw = False
+249.8967 	EXP 	text_2: autoDraw = False
+249.8967 	EXP 	image_7: image = 'Images/Yarn 4.jpg'
+249.8967 	EXP 	image_7: autoDraw = True
+250.1656 	DATA 	Keypress: 1
+250.1800 	EXP 	image_7: autoDraw = False
+250.1800 	EXP 	text_2: autoDraw = True
+250.6637 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'Images/Wedding 7.jpg', 'AnimateInanimate': 1}
+250.6799 	EXP 	text_2: autoDraw = False
+250.6799 	EXP 	text_2: autoDraw = False
+250.6799 	EXP 	image_7: image = 'Images/Wedding 7.jpg'
+250.6799 	EXP 	image_7: autoDraw = True
+250.8150 	DATA 	Keypress: 1
+250.8467 	EXP 	image_7: autoDraw = False
+250.8467 	EXP 	text_2: autoDraw = True
+251.3470 	EXP 	text_2: autoDraw = False
+251.3470 	EXP 	text_2: autoDraw = False
+251.3470 	EXP 	text_9: autoDraw = True
+251.5841 	DATA 	Keypress: 1
+252.7176 	EXP 	Imported Reversed_Compiled_IAT.xlsx as conditions, 80 conditions, 4 params
+252.7185 	EXP 	Created sequence: random, trialTypes=80, nReps=1, seed=None
+252.7187 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'Images/Fireworks 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.277, 'Rand': 0.9457837433756032}
+252.7262 	DATA 	Keypress: space
+252.7299 	EXP 	text_9: autoDraw = False
+252.7299 	EXP 	image_6: image = 'Images/Fireworks 2.jpg'
+252.7299 	EXP 	image_6: autoDraw = True
+253.7306 	EXP 	image_6: autoDraw = False
+253.7306 	EXP 	text_2: autoDraw = True
+254.0823 	DATA 	Keypress: 1
+254.2146 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'Images/Nature 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.1726, 'Rand': 0.8657415608777785}
+254.2346 	EXP 	text_2: autoDraw = False
+254.2346 	EXP 	image_6: image = 'Images/Nature 1.jpg'
+254.2346 	EXP 	image_6: autoDraw = True
+254.7528 	DATA 	Keypress: 1
+254.7639 	EXP 	image_6: autoDraw = False
+254.7639 	EXP 	text_2: autoDraw = True
+255.2491 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'Images/Dirt 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.6168, 'Rand': 0.06853202818535975}
+255.2668 	EXP 	text_2: autoDraw = False
+255.2668 	EXP 	text_2: autoDraw = False
+255.2668 	EXP 	image_6: image = 'Images/Dirt 1.jpg'
+255.2668 	EXP 	image_6: autoDraw = True
+255.4170 	DATA 	Keypress: 1
+255.4469 	EXP 	image_6: autoDraw = False
+255.4469 	EXP 	text_2: autoDraw = True
+255.9319 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'Images/Horse 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9469, 'Rand': 0.9026388811023841}
+255.9377 	DATA 	Keypress: 1
+255.9466 	EXP 	text_2: autoDraw = False
+255.9466 	EXP 	text_2: autoDraw = False
+255.9466 	EXP 	image_6: image = 'Images/Horse 1.jpg'
+255.9466 	EXP 	image_6: autoDraw = True
+256.4354 	DATA 	Keypress: 1
+256.4470 	EXP 	image_6: autoDraw = False
+256.4470 	EXP 	text_2: autoDraw = True
+256.9319 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'Images/Flowers 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8142, 'Rand': 0.9766749852638511}
+256.9498 	EXP 	text_2: autoDraw = False
+256.9498 	EXP 	text_2: autoDraw = False
+256.9498 	EXP 	image_6: image = 'Images/Flowers 1.jpg'
+256.9498 	EXP 	image_6: autoDraw = True
+257.2210 	DATA 	Keypress: 1
+257.2309 	EXP 	image_6: autoDraw = False
+257.2309 	EXP 	text_2: autoDraw = True
+257.7146 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'Images/Destruction 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.1143, 'Rand': 0.2570234643667684}
+257.7316 	EXP 	text_2: autoDraw = False
+257.7316 	EXP 	text_2: autoDraw = False
+257.7316 	EXP 	image_6: image = 'Images/Destruction 5.jpg'
+257.7316 	EXP 	image_6: autoDraw = True
+257.9015 	DATA 	Keypress: 1
+257.9135 	EXP 	image_6: autoDraw = False
+257.9135 	EXP 	text_2: autoDraw = True
+258.3982 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'Images/Dog 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9348, 'Rand': 0.07502056652413014}
+258.4147 	EXP 	text_2: autoDraw = False
+258.4147 	EXP 	text_2: autoDraw = False
+258.4147 	EXP 	image_6: image = 'Images/Dog 2.jpg'
+258.4147 	EXP 	image_6: autoDraw = True
+258.5181 	DATA 	Keypress: 1
+258.5303 	EXP 	image_6: autoDraw = False
+258.5303 	EXP 	text_2: autoDraw = True
+259.0163 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'Images/Lake 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.3635, 'Rand': 0.1903915426151832}
+259.0378 	EXP 	text_2: autoDraw = False
+259.0378 	EXP 	text_2: autoDraw = False
+259.0378 	EXP 	image_6: image = 'Images/Lake 2.jpg'
+259.0378 	EXP 	image_6: autoDraw = True
+259.2194 	DATA 	Keypress: 1
+259.2306 	EXP 	image_6: autoDraw = False
+259.2306 	EXP 	text_2: autoDraw = True
+259.7154 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'Images/Elephant 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8272, 'Rand': 0.6910127551651892}
+259.7348 	EXP 	text_2: autoDraw = False
+259.7348 	EXP 	text_2: autoDraw = False
+259.7348 	EXP 	image_6: image = 'Images/Elephant 1.jpg'
+259.7348 	EXP 	image_6: autoDraw = True
+259.8494 	DATA 	Keypress: 1
+259.8799 	EXP 	image_6: autoDraw = False
+259.8799 	EXP 	text_2: autoDraw = True
+260.3652 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'Images/Cat 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.798, 'Rand': 0.30785698558493335}
+260.3832 	EXP 	text_2: autoDraw = False
+260.3832 	EXP 	text_2: autoDraw = False
+260.3832 	EXP 	image_6: image = 'Images/Cat 4.jpg'
+260.3832 	EXP 	image_6: autoDraw = True
+260.4857 	DATA 	Keypress: 1
+260.4971 	EXP 	image_6: autoDraw = False
+260.4971 	EXP 	text_2: autoDraw = True
+260.9816 	EXP 	New trial (rep=0, index=10): {'ImageFile': 'Images/Garbage dump 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.0219, 'Rand': 0.6295943303088709}
+260.9990 	EXP 	text_2: autoDraw = False
+260.9990 	EXP 	text_2: autoDraw = False
+260.9990 	EXP 	image_6: image = 'Images/Garbage dump 3.jpg'
+260.9990 	EXP 	image_6: autoDraw = True
+261.0346 	DATA 	Keypress: 1
+261.0470 	EXP 	image_6: autoDraw = False
+261.0470 	EXP 	text_2: autoDraw = True
+261.5316 	EXP 	New trial (rep=0, index=11): {'ImageFile': 'Images/Frustrated pose 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.6481, 'Rand': 0.09932373999273747}
+261.5478 	EXP 	text_2: autoDraw = False
+261.5478 	EXP 	text_2: autoDraw = False
+261.5478 	EXP 	image_6: image = 'Images/Frustrated pose 2.jpg'
+261.5478 	EXP 	image_6: autoDraw = True
+261.6680 	DATA 	Keypress: 1
+261.6803 	EXP 	image_6: autoDraw = False
+261.6803 	EXP 	text_2: autoDraw = True
+262.1661 	EXP 	New trial (rep=0, index=12): {'ImageFile': 'Images/Fireworks 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0651, 'Rand': 0.6859935880123176}
+262.1878 	EXP 	text_2: autoDraw = False
+262.1878 	EXP 	text_2: autoDraw = False
+262.1878 	EXP 	image_6: image = 'Images/Fireworks 3.jpg'
+262.1878 	EXP 	image_6: autoDraw = True
+262.3184 	DATA 	Keypress: 1
+262.3304 	EXP 	image_6: autoDraw = False
+262.3304 	EXP 	text_2: autoDraw = True
+262.8160 	EXP 	New trial (rep=0, index=13): {'ImageFile': 'Images/War 8.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.7473, 'Rand': 0.5530710944545294}
+262.8301 	EXP 	text_2: autoDraw = False
+262.8301 	EXP 	text_2: autoDraw = False
+262.8301 	EXP 	image_6: image = 'Images/War 8.jpg'
+262.8301 	EXP 	image_6: autoDraw = True
+262.9367 	DATA 	Keypress: 1
+262.9473 	EXP 	image_6: autoDraw = False
+262.9473 	EXP 	text_2: autoDraw = True
+263.4314 	EXP 	New trial (rep=0, index=14): {'ImageFile': 'Images/Jail 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 3.0599, 'Rand': 0.31125348095634753}
+263.4471 	EXP 	text_2: autoDraw = False
+263.4471 	EXP 	text_2: autoDraw = False
+263.4471 	EXP 	image_6: image = 'Images/Jail 5.jpg'
+263.4471 	EXP 	image_6: autoDraw = True
+263.5341 	DATA 	Keypress: 1
+263.5470 	EXP 	image_6: autoDraw = False
+263.5470 	EXP 	text_2: autoDraw = True
+264.0321 	EXP 	New trial (rep=0, index=15): {'ImageFile': 'Images/Tornado 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.1274, 'Rand': 0.7457681759620104}
+264.0492 	EXP 	text_2: autoDraw = False
+264.0492 	EXP 	text_2: autoDraw = False
+264.0492 	EXP 	image_6: image = 'Images/Tornado 1.jpg'
+264.0492 	EXP 	image_6: autoDraw = True
+264.1679 	DATA 	Keypress: 1
+264.1803 	EXP 	image_6: autoDraw = False
+264.1803 	EXP 	text_2: autoDraw = True
+264.6653 	EXP 	New trial (rep=0, index=16): {'ImageFile': 'Images/Neonazi 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.0577, 'Rand': 0.089888009773616}
+264.6823 	EXP 	text_2: autoDraw = False
+264.6823 	EXP 	text_2: autoDraw = False
+264.6823 	EXP 	image_6: image = 'Images/Neonazi 1.jpg'
+264.6823 	EXP 	image_6: autoDraw = True
+264.7656 	DATA 	Keypress: 1
+264.7800 	EXP 	image_6: autoDraw = False
+264.7800 	EXP 	text_2: autoDraw = True
+265.2645 	EXP 	New trial (rep=0, index=17): {'ImageFile': 'Images/Weapon 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.8209, 'Rand': 0.6585203326203783}
+265.2799 	EXP 	text_2: autoDraw = False
+265.2799 	EXP 	text_2: autoDraw = False
+265.2799 	EXP 	image_6: image = 'Images/Weapon 1.jpg'
+265.2799 	EXP 	image_6: autoDraw = True
+265.3674 	DATA 	Keypress: 1
+265.3803 	EXP 	image_6: autoDraw = False
+265.3803 	EXP 	text_2: autoDraw = True
+265.8641 	EXP 	New trial (rep=0, index=18): {'ImageFile': 'Images/Dog 19.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9814, 'Rand': 0.10803629375699186}
+265.8800 	EXP 	text_2: autoDraw = False
+265.8800 	EXP 	text_2: autoDraw = False
+265.8800 	EXP 	image_6: image = 'Images/Dog 19.jpg'
+265.8800 	EXP 	image_6: autoDraw = True
+265.9161 	DATA 	Keypress: 1
+265.9301 	EXP 	image_6: autoDraw = False
+265.9301 	EXP 	text_2: autoDraw = True
+266.4158 	EXP 	New trial (rep=0, index=19): {'ImageFile': 'Images/Miserable pose 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.5702, 'Rand': 0.5411508855388304}
+266.4323 	EXP 	text_2: autoDraw = False
+266.4323 	EXP 	text_2: autoDraw = False
+266.4323 	EXP 	image_6: image = 'Images/Miserable pose 4.jpg'
+266.4323 	EXP 	image_6: autoDraw = True
+266.5362 	DATA 	Keypress: 1
+266.5474 	EXP 	image_6: autoDraw = False
+266.5474 	EXP 	text_2: autoDraw = True
+267.0312 	EXP 	New trial (rep=0, index=20): {'ImageFile': 'Images/Sad pose 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.8801, 'Rand': 0.608695029724716}
+267.0467 	EXP 	text_2: autoDraw = False
+267.0467 	EXP 	text_2: autoDraw = False
+267.0467 	EXP 	image_6: image = 'Images/Sad pose 1.jpg'
+267.0467 	EXP 	image_6: autoDraw = True
+267.1510 	DATA 	Keypress: 1
+267.1637 	EXP 	image_6: autoDraw = False
+267.1637 	EXP 	text_2: autoDraw = True
+267.6484 	EXP 	New trial (rep=0, index=21): {'ImageFile': 'Images/Massage 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.7288, 'Rand': 0.7598843971589982}
+267.6632 	EXP 	text_2: autoDraw = False
+267.6632 	EXP 	text_2: autoDraw = False
+267.6632 	EXP 	image_6: image = 'Images/Massage 2.jpg'
+267.6632 	EXP 	image_6: autoDraw = True
+267.6827 	DATA 	Keypress: 1
+267.6967 	EXP 	image_6: autoDraw = False
+267.6967 	EXP 	text_2: autoDraw = True
+268.1825 	EXP 	New trial (rep=0, index=22): {'ImageFile': 'Images/Toilet 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.4986, 'Rand': 0.6711536965753584}
+268.1999 	EXP 	text_2: autoDraw = False
+268.1999 	EXP 	text_2: autoDraw = False
+268.1999 	EXP 	image_6: image = 'Images/Toilet 4.jpg'
+268.1999 	EXP 	image_6: autoDraw = True
+268.2863 	DATA 	Keypress: 1
+268.2973 	EXP 	image_6: autoDraw = False
+268.2973 	EXP 	text_2: autoDraw = True
+268.7806 	EXP 	New trial (rep=0, index=23): {'ImageFile': 'Images/Dead bodies 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.2275, 'Rand': 0.9882559393650525}
+268.7965 	EXP 	text_2: autoDraw = False
+268.7965 	EXP 	text_2: autoDraw = False
+268.7965 	EXP 	image_6: image = 'Images/Dead bodies 2.jpg'
+268.7965 	EXP 	image_6: autoDraw = True
+268.9012 	DATA 	Keypress: 1
+268.9136 	EXP 	image_6: autoDraw = False
+268.9136 	EXP 	text_2: autoDraw = True
+269.3981 	EXP 	New trial (rep=0, index=24): {'ImageFile': 'Images/Destruction 10.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.0682, 'Rand': 0.8776428714390194}
+269.4154 	EXP 	text_2: autoDraw = False
+269.4154 	EXP 	text_2: autoDraw = False
+269.4154 	EXP 	image_6: image = 'Images/Destruction 10.jpg'
+269.4154 	EXP 	image_6: autoDraw = True
+269.4680 	DATA 	Keypress: 1
+269.4803 	EXP 	image_6: autoDraw = False
+269.4803 	EXP 	text_2: autoDraw = True
+269.9652 	EXP 	New trial (rep=0, index=25): {'ImageFile': 'Images/Gun 6.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.9016, 'Rand': 0.42568611342078966}
+269.9812 	EXP 	text_2: autoDraw = False
+269.9812 	EXP 	text_2: autoDraw = False
+269.9812 	EXP 	image_6: image = 'Images/Gun 6.jpg'
+269.9812 	EXP 	image_6: autoDraw = True
+270.1019 	DATA 	Keypress: 1
+270.1137 	EXP 	image_6: autoDraw = False
+270.1137 	EXP 	text_2: autoDraw = True
+270.5994 	EXP 	New trial (rep=0, index=26): {'ImageFile': 'Images/Mother 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0784, 'Rand': 0.4860853545085757}
+270.6171 	EXP 	text_2: autoDraw = False
+270.6171 	EXP 	text_2: autoDraw = False
+270.6171 	EXP 	image_6: image = 'Images/Mother 1.jpg'
+270.6171 	EXP 	image_6: autoDraw = True
+270.7008 	DATA 	Keypress: 1
+270.7135 	EXP 	image_6: autoDraw = False
+270.7135 	EXP 	text_2: autoDraw = True
+271.1986 	EXP 	New trial (rep=0, index=27): {'ImageFile': 'Images/Mother 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9438, 'Rand': 0.5444126340407461}
+271.2149 	EXP 	text_2: autoDraw = False
+271.2149 	EXP 	text_2: autoDraw = False
+271.2149 	EXP 	image_6: image = 'Images/Mother 5.jpg'
+271.2149 	EXP 	image_6: autoDraw = True
+271.3042 	DATA 	Keypress: 1
+271.3147 	EXP 	image_6: autoDraw = False
+271.3147 	EXP 	text_2: autoDraw = True
+271.7983 	EXP 	New trial (rep=0, index=28): {'ImageFile': 'Images/Cold 8.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.5742, 'Rand': 0.43610885762593654}
+271.8154 	EXP 	text_2: autoDraw = False
+271.8154 	EXP 	text_2: autoDraw = False
+271.8154 	EXP 	image_6: image = 'Images/Cold 8.jpg'
+271.8154 	EXP 	image_6: autoDraw = True
+271.8340 	DATA 	Keypress: 1
+271.8637 	EXP 	image_6: autoDraw = False
+271.8637 	EXP 	text_2: autoDraw = True
+272.3497 	EXP 	New trial (rep=0, index=29): {'ImageFile': 'Images/Lake 12.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.4088, 'Rand': 0.2111153214292586}
+272.3854 	DATA 	Keypress: 1
+272.3892 	EXP 	text_2: autoDraw = False
+272.3892 	EXP 	text_2: autoDraw = False
+272.3892 	EXP 	image_6: image = 'Images/Lake 12.jpg'
+272.3892 	EXP 	image_6: autoDraw = True
+272.9178 	DATA 	Keypress: 1
+272.9303 	EXP 	image_6: autoDraw = False
+272.9303 	EXP 	text_2: autoDraw = True
+273.4156 	EXP 	New trial (rep=0, index=30): {'ImageFile': 'Images/Angry face 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.5188, 'Rand': 0.01731858207800252}
+273.4324 	EXP 	text_2: autoDraw = False
+273.4324 	EXP 	text_2: autoDraw = False
+273.4324 	EXP 	image_6: image = 'Images/Angry face 3.jpg'
+273.4324 	EXP 	image_6: autoDraw = True
+273.6167 	DATA 	Keypress: 1
+273.6470 	EXP 	image_6: autoDraw = False
+273.6470 	EXP 	text_2: autoDraw = True
+274.1318 	EXP 	New trial (rep=0, index=31): {'ImageFile': 'Images/Bridge 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9383, 'Rand': 0.2953117573162162}
+274.1489 	EXP 	text_2: autoDraw = False
+274.1489 	EXP 	text_2: autoDraw = False
+274.1489 	EXP 	image_6: image = 'Images/Bridge 1.jpg'
+274.1489 	EXP 	image_6: autoDraw = True
+274.2537 	DATA 	Keypress: 1
+274.2642 	EXP 	image_6: autoDraw = False
+274.2642 	EXP 	text_2: autoDraw = True
+274.7475 	EXP 	New trial (rep=0, index=32): {'ImageFile': 'Images/Galaxy 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.7867, 'Rand': 0.701723993367569}
+274.7633 	EXP 	text_2: autoDraw = False
+274.7633 	EXP 	text_2: autoDraw = False
+274.7633 	EXP 	image_6: image = 'Images/Galaxy 2.jpg'
+274.7633 	EXP 	image_6: autoDraw = True
+274.8158 	DATA 	Keypress: 1
+274.8299 	EXP 	image_6: autoDraw = False
+274.8299 	EXP 	text_2: autoDraw = True
+275.3157 	EXP 	New trial (rep=0, index=33): {'ImageFile': 'Images/Sidewalk 6.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.7978, 'Rand': 0.8172575499898311}
+275.3311 	EXP 	text_2: autoDraw = False
+275.3311 	EXP 	text_2: autoDraw = False
+275.3311 	EXP 	image_6: image = 'Images/Sidewalk 6.jpg'
+275.3311 	EXP 	image_6: autoDraw = True
+275.3834 	DATA 	Keypress: 1
+275.4137 	EXP 	image_6: autoDraw = False
+275.4137 	EXP 	text_2: autoDraw = True
+275.9009 	EXP 	New trial (rep=0, index=34): {'ImageFile': 'Images/Frustrated pose 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.481, 'Rand': 0.6171253093911958}
+275.9135 	DATA 	Keypress: 1
+275.9170 	EXP 	text_2: autoDraw = False
+275.9170 	EXP 	text_2: autoDraw = False
+275.9170 	EXP 	image_6: image = 'Images/Frustrated pose 5.jpg'
+275.9170 	EXP 	image_6: autoDraw = True
+276.4386 	DATA 	Keypress: 1
+276.4475 	EXP 	image_6: autoDraw = False
+276.4475 	EXP 	text_2: autoDraw = True
+276.9319 	EXP 	New trial (rep=0, index=35): {'ImageFile': 'Images/Excited face 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8009, 'Rand': 0.12716745141362562}
+276.9498 	EXP 	text_2: autoDraw = False
+276.9498 	EXP 	text_2: autoDraw = False
+276.9498 	EXP 	image_6: image = 'Images/Excited face 2.jpg'
+276.9498 	EXP 	image_6: autoDraw = True
+277.0833 	DATA 	Keypress: 1
+277.0967 	EXP 	image_6: autoDraw = False
+277.0967 	EXP 	text_2: autoDraw = True
+277.5816 	EXP 	New trial (rep=0, index=36): {'ImageFile': 'Images/Gun 10.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.5934, 'Rand': 0.5526612727945294}
+277.5980 	EXP 	text_2: autoDraw = False
+277.5980 	EXP 	text_2: autoDraw = False
+277.5980 	EXP 	image_6: image = 'Images/Gun 10.jpg'
+277.5980 	EXP 	image_6: autoDraw = True
+277.6155 	DATA 	Keypress: 1
+277.6469 	EXP 	image_6: autoDraw = False
+277.6469 	EXP 	text_2: autoDraw = True
+278.1311 	EXP 	New trial (rep=0, index=37): {'ImageFile': 'Images/Dog 18.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.1614, 'Rand': 0.8550452441698723}
+278.1472 	EXP 	text_2: autoDraw = False
+278.1472 	EXP 	text_2: autoDraw = False
+278.1472 	EXP 	image_6: image = 'Images/Dog 18.jpg'
+278.1472 	EXP 	image_6: autoDraw = True
+278.2346 	DATA 	Keypress: 1
+278.2469 	EXP 	image_6: autoDraw = False
+278.2469 	EXP 	text_2: autoDraw = True
+278.7314 	EXP 	New trial (rep=0, index=38): {'ImageFile': 'Images/Beach 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.2944, 'Rand': 0.20740057162757386}
+278.7408 	DATA 	Keypress: 1
+278.7470 	EXP 	text_2: autoDraw = False
+278.7470 	EXP 	text_2: autoDraw = False
+278.7470 	EXP 	image_6: image = 'Images/Beach 2.jpg'
+278.7470 	EXP 	image_6: autoDraw = True
+279.2177 	DATA 	Keypress: 1
+279.2303 	EXP 	image_6: autoDraw = False
+279.2303 	EXP 	text_2: autoDraw = True
+279.7138 	EXP 	New trial (rep=0, index=39): {'ImageFile': 'Images/Scared face 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 3.0377, 'Rand': 0.8892379777884233}
+279.7301 	EXP 	text_2: autoDraw = False
+279.7301 	EXP 	text_2: autoDraw = False
+279.7301 	EXP 	image_6: image = 'Images/Scared face 3.jpg'
+279.7301 	EXP 	image_6: autoDraw = True
+279.8830 	DATA 	Keypress: 1
+279.8967 	EXP 	image_6: autoDraw = False
+279.8967 	EXP 	text_2: autoDraw = True
+280.3818 	EXP 	New trial (rep=0, index=40): {'ImageFile': 'Images/Lake 10.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.125, 'Rand': 0.03762475418645217}
+280.4125 	EXP 	text_2: autoDraw = False
+280.4125 	EXP 	image_6: image = 'Images/Lake 10.jpg'
+280.4125 	EXP 	image_6: autoDraw = True
+280.4489 	DATA 	Keypress: 1
+280.4807 	EXP 	image_6: autoDraw = False
+280.4807 	EXP 	text_2: autoDraw = True
+280.9663 	EXP 	New trial (rep=0, index=41): {'ImageFile': 'Images/Couple 8.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.7678, 'Rand': 0.9589062450467681}
+280.9856 	EXP 	text_2: autoDraw = False
+280.9856 	EXP 	text_2: autoDraw = False
+280.9856 	EXP 	image_6: image = 'Images/Couple 8.jpg'
+280.9856 	EXP 	image_6: autoDraw = True
+281.0686 	DATA 	Keypress: 1
+281.0801 	EXP 	image_6: autoDraw = False
+281.0801 	EXP 	text_2: autoDraw = True
+281.5640 	EXP 	New trial (rep=0, index=42): {'ImageFile': 'Images/Sleepy pose 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.603, 'Rand': 0.02566586227899037}
+281.5798 	EXP 	text_2: autoDraw = False
+281.5798 	EXP 	text_2: autoDraw = False
+281.5798 	EXP 	image_6: image = 'Images/Sleepy pose 1.jpg'
+281.5798 	EXP 	image_6: autoDraw = True
+281.5819 	DATA 	Keypress: 1
+282.0326 	DATA 	Keypress: 1
+282.0466 	EXP 	image_6: autoDraw = False
+282.0466 	EXP 	text_2: autoDraw = True
+282.5316 	EXP 	New trial (rep=0, index=43): {'ImageFile': 'Images/Miserable pose 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.579, 'Rand': 0.03572930250516104}
+282.5474 	EXP 	text_2: autoDraw = False
+282.5474 	EXP 	text_2: autoDraw = False
+282.5474 	EXP 	image_6: image = 'Images/Miserable pose 1.jpg'
+282.5474 	EXP 	image_6: autoDraw = True
+282.6019 	DATA 	Keypress: 1
+282.6137 	EXP 	image_6: autoDraw = False
+282.6137 	EXP 	text_2: autoDraw = True
+283.0983 	EXP 	New trial (rep=0, index=44): {'ImageFile': 'Images/Gun 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.9016, 'Rand': 0.8288210597496947}
+283.1149 	EXP 	text_2: autoDraw = False
+283.1149 	EXP 	text_2: autoDraw = False
+283.1149 	EXP 	image_6: image = 'Images/Gun 4.jpg'
+283.1149 	EXP 	image_6: autoDraw = True
+283.1853 	DATA 	Keypress: 1
+283.1971 	EXP 	image_6: autoDraw = False
+283.1971 	EXP 	text_2: autoDraw = True
+283.6816 	EXP 	New trial (rep=0, index=45): {'ImageFile': 'Images/Flowers 6.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9556, 'Rand': 0.2673270754320648}
+283.6972 	EXP 	text_2: autoDraw = False
+283.6972 	EXP 	text_2: autoDraw = False
+283.6972 	EXP 	image_6: image = 'Images/Flowers 6.jpg'
+283.6972 	EXP 	image_6: autoDraw = True
+283.8017 	DATA 	Keypress: 1
+283.8137 	EXP 	image_6: autoDraw = False
+283.8137 	EXP 	text_2: autoDraw = True
+284.2986 	EXP 	New trial (rep=0, index=46): {'ImageFile': 'Images/Frustrated pose 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.3937, 'Rand': 0.7197407902889942}
+284.3200 	EXP 	text_2: autoDraw = False
+284.3200 	EXP 	text_2: autoDraw = False
+284.3200 	EXP 	image_6: image = 'Images/Frustrated pose 1.jpg'
+284.3200 	EXP 	image_6: autoDraw = True
+284.4014 	DATA 	Keypress: 1
+284.4138 	EXP 	image_6: autoDraw = False
+284.4138 	EXP 	text_2: autoDraw = True
+284.8973 	EXP 	New trial (rep=0, index=47): {'ImageFile': 'Images/Picnic 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0998, 'Rand': 0.7462581288399163}
+284.9133 	EXP 	text_2: autoDraw = False
+284.9133 	EXP 	text_2: autoDraw = False
+284.9133 	EXP 	image_6: image = 'Images/Picnic 1.jpg'
+284.9133 	EXP 	image_6: autoDraw = True
+284.9842 	DATA 	Keypress: 1
+285.0138 	EXP 	image_6: autoDraw = False
+285.0138 	EXP 	text_2: autoDraw = True
+285.4983 	EXP 	New trial (rep=0, index=48): {'ImageFile': 'Images/Intensity 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.8252, 'Rand': 0.6123979858646935}
+285.5136 	EXP 	text_2: autoDraw = False
+285.5136 	EXP 	text_2: autoDraw = False
+285.5136 	EXP 	image_6: image = 'Images/Intensity 1.jpg'
+285.5136 	EXP 	image_6: autoDraw = True
+285.5848 	DATA 	Keypress: 1
+285.5970 	EXP 	image_6: autoDraw = False
+285.5970 	EXP 	text_2: autoDraw = True
+286.0806 	EXP 	New trial (rep=0, index=49): {'ImageFile': 'Images/Wedding 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.7601, 'Rand': 0.2242304432087503}
+286.0967 	EXP 	text_2: autoDraw = False
+286.0967 	EXP 	text_2: autoDraw = False
+286.0967 	EXP 	image_6: image = 'Images/Wedding 2.jpg'
+286.0967 	EXP 	image_6: autoDraw = True
+286.1330 	DATA 	Keypress: 1
+286.1467 	EXP 	image_6: autoDraw = False
+286.1467 	EXP 	text_2: autoDraw = True
+286.6322 	EXP 	New trial (rep=0, index=50): {'ImageFile': 'Images/Fire 7.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.7007, 'Rand': 0.9031544214003061}
+286.6498 	EXP 	text_2: autoDraw = False
+286.6498 	EXP 	text_2: autoDraw = False
+286.6498 	EXP 	image_6: image = 'Images/Fire 7.jpg'
+286.6498 	EXP 	image_6: autoDraw = True
+286.7843 	DATA 	Keypress: 1
+286.7975 	EXP 	image_6: autoDraw = False
+286.7975 	EXP 	text_2: autoDraw = True
+287.2820 	EXP 	New trial (rep=0, index=51): {'ImageFile': 'Images/Birthday 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.5506, 'Rand': 0.871405098949419}
+287.2989 	EXP 	text_2: autoDraw = False
+287.2989 	EXP 	text_2: autoDraw = False
+287.2989 	EXP 	image_6: image = 'Images/Birthday 3.jpg'
+287.2989 	EXP 	image_6: autoDraw = True
+288.1329 	DATA 	Keypress: 1
+288.1467 	EXP 	image_6: autoDraw = False
+288.1467 	EXP 	text_2: autoDraw = True
+288.6319 	EXP 	New trial (rep=0, index=52): {'ImageFile': 'Images/Bird 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9051, 'Rand': 0.07169416964078457}
+288.6536 	EXP 	text_2: autoDraw = False
+288.6536 	EXP 	image_6: image = 'Images/Bird 1.jpg'
+288.6536 	EXP 	image_6: autoDraw = True
+288.8020 	DATA 	Keypress: 1
+288.8138 	EXP 	image_6: autoDraw = False
+288.8138 	EXP 	text_2: autoDraw = True
+289.2997 	EXP 	New trial (rep=0, index=53): {'ImageFile': 'Images/Galaxy 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.4342, 'Rand': 0.012258795229660557}
+289.3173 	EXP 	text_2: autoDraw = False
+289.3173 	EXP 	text_2: autoDraw = False
+289.3173 	EXP 	image_6: image = 'Images/Galaxy 4.jpg'
+289.3173 	EXP 	image_6: autoDraw = True
+289.3681 	DATA 	Keypress: 1
+289.3803 	EXP 	image_6: autoDraw = False
+289.3803 	EXP 	text_2: autoDraw = True
+289.8654 	EXP 	New trial (rep=0, index=54): {'ImageFile': 'Images/Flowers 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8142, 'Rand': 0.5412454842806304}
+289.8806 	EXP 	text_2: autoDraw = False
+289.8806 	EXP 	text_2: autoDraw = False
+289.8806 	EXP 	image_6: image = 'Images/Flowers 1.jpg'
+289.8806 	EXP 	image_6: autoDraw = True
+289.9520 	DATA 	Keypress: 1
+289.9640 	EXP 	image_6: autoDraw = False
+289.9640 	EXP 	text_2: autoDraw = True
+290.4485 	EXP 	New trial (rep=0, index=55): {'ImageFile': 'Images/Wedding 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8256, 'Rand': 0.3605907445545198}
+290.4561 	DATA 	Keypress: 1
+290.4632 	EXP 	text_2: autoDraw = False
+290.4632 	EXP 	text_2: autoDraw = False
+290.4632 	EXP 	image_6: image = 'Images/Wedding 4.jpg'
+290.4632 	EXP 	image_6: autoDraw = True
+290.9858 	DATA 	Keypress: 1
+290.9972 	EXP 	image_6: autoDraw = False
+290.9972 	EXP 	text_2: autoDraw = True
+291.2167 	DATA 	Keypress: 1
+291.4163 	DATA 	Keypress: 1
+291.4819 	EXP 	New trial (rep=0, index=56): {'ImageFile': 'Images/Explosion 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.7061, 'Rand': 0.24574454531708345}
+291.4978 	EXP 	text_2: autoDraw = False
+291.4978 	EXP 	text_2: autoDraw = False
+291.4978 	EXP 	image_6: image = 'Images/Explosion 1.jpg'
+291.4978 	EXP 	image_6: autoDraw = True
+291.5999 	DATA 	Keypress: 1
+291.6305 	EXP 	image_6: autoDraw = False
+291.6305 	EXP 	text_2: autoDraw = True
+291.7674 	DATA 	Keypress: 1
+291.9665 	DATA 	Keypress: 1
+292.1141 	EXP 	New trial (rep=0, index=57): {'ImageFile': 'Images/Soldiers 7.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.5465, 'Rand': 0.13500107972103892}
+292.1300 	EXP 	text_2: autoDraw = False
+292.1300 	EXP 	text_2: autoDraw = False
+292.1300 	EXP 	image_6: image = 'Images/Soldiers 7.jpg'
+292.1300 	EXP 	image_6: autoDraw = True
+292.1672 	DATA 	Keypress: 1
+292.1802 	EXP 	image_6: autoDraw = False
+292.1802 	EXP 	text_2: autoDraw = True
+292.3668 	DATA 	Keypress: 1
+292.5834 	DATA 	Keypress: 1
+292.6651 	EXP 	New trial (rep=0, index=58): {'ImageFile': 'Images/Tornado 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.7192, 'Rand': 0.35882841291674683}
+292.6807 	EXP 	text_2: autoDraw = False
+292.6807 	EXP 	text_2: autoDraw = False
+292.6807 	EXP 	image_6: image = 'Images/Tornado 4.jpg'
+292.6807 	EXP 	image_6: autoDraw = True
+292.7843 	DATA 	Keypress: 1
+292.7971 	EXP 	image_6: autoDraw = False
+292.7971 	EXP 	text_2: autoDraw = True
+292.9849 	DATA 	Keypress: 1
+293.2817 	EXP 	New trial (rep=0, index=59): {'ImageFile': 'Images/Snake 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.4159, 'Rand': 0.3612516676203783}
+293.3003 	EXP 	text_2: autoDraw = False
+293.3003 	EXP 	text_2: autoDraw = False
+293.3003 	EXP 	image_6: image = 'Images/Snake 4.jpg'
+293.3003 	EXP 	image_6: autoDraw = True
+293.3844 	DATA 	Keypress: 1
+293.3970 	EXP 	image_6: autoDraw = False
+293.3970 	EXP 	text_2: autoDraw = True
+293.8661 	DATA 	Keypress: 1
+293.8816 	EXP 	New trial (rep=0, index=60): {'ImageFile': 'Images/Jail 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.9691, 'Rand': 0.7287341893927104}
+293.8974 	EXP 	text_2: autoDraw = False
+293.8974 	EXP 	text_2: autoDraw = False
+293.8974 	EXP 	image_6: image = 'Images/Jail 2.jpg'
+293.8974 	EXP 	image_6: autoDraw = True
+294.4663 	DATA 	Keypress: 1
+294.4802 	EXP 	image_6: autoDraw = False
+294.4802 	EXP 	text_2: autoDraw = True
+294.9649 	EXP 	New trial (rep=0, index=61): {'ImageFile': 'Images/Lake 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9732, 'Rand': 0.8610769607229587}
+294.9824 	EXP 	text_2: autoDraw = False
+294.9824 	EXP 	text_2: autoDraw = False
+294.9824 	EXP 	image_6: image = 'Images/Lake 3.jpg'
+294.9824 	EXP 	image_6: autoDraw = True
+295.9970 	EXP 	image_6: autoDraw = False
+295.9970 	EXP 	text_2: autoDraw = True
+296.0826 	DATA 	Keypress: 1
+296.4810 	EXP 	New trial (rep=0, index=62): {'ImageFile': 'Images/Hangover 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.3921, 'Rand': 0.45081968953948404}
+296.4969 	EXP 	text_2: autoDraw = False
+296.4969 	EXP 	image_6: image = 'Images/Hangover 1.jpg'
+296.4969 	EXP 	image_6: autoDraw = True
+296.5703 	DATA 	Keypress: 1
+296.5807 	EXP 	image_6: autoDraw = False
+296.5807 	EXP 	text_2: autoDraw = True
+296.7836 	DATA 	Keypress: 1
+297.0658 	EXP 	New trial (rep=0, index=63): {'ImageFile': 'Images/Cat 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.1842, 'Rand': 0.9954257341646925}
+297.0823 	EXP 	text_2: autoDraw = False
+297.0823 	EXP 	text_2: autoDraw = False
+297.0823 	EXP 	image_6: image = 'Images/Cat 5.jpg'
+297.0823 	EXP 	image_6: autoDraw = True
+297.4344 	DATA 	Keypress: 1
+297.4470 	EXP 	image_6: autoDraw = False
+297.4470 	EXP 	text_2: autoDraw = True
+297.9314 	EXP 	New trial (rep=0, index=64): {'ImageFile': 'Images/Injury 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.9865, 'Rand': 0.7457269672855836}
+297.9468 	EXP 	text_2: autoDraw = False
+297.9468 	EXP 	text_2: autoDraw = False
+297.9468 	EXP 	image_6: image = 'Images/Injury 1.jpg'
+297.9468 	EXP 	image_6: autoDraw = True
+298.0845 	DATA 	Keypress: 1
+298.0970 	EXP 	image_6: autoDraw = False
+298.0970 	EXP 	text_2: autoDraw = True
+298.5817 	EXP 	New trial (rep=0, index=65): {'ImageFile': 'Images/Flowers 9.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9383, 'Rand': 0.7319232383981693}
+298.5981 	EXP 	text_2: autoDraw = False
+298.5981 	EXP 	text_2: autoDraw = False
+298.5981 	EXP 	image_6: image = 'Images/Flowers 9.jpg'
+298.5981 	EXP 	image_6: autoDraw = True
+298.9693 	DATA 	Keypress: 1
+298.9976 	EXP 	image_6: autoDraw = False
+298.9976 	EXP 	text_2: autoDraw = True
+299.4808 	EXP 	New trial (rep=0, index=66): {'ImageFile': 'Images/Baby 6.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0604, 'Rand': 0.910778212048847}
+299.4966 	EXP 	text_2: autoDraw = False
+299.4966 	EXP 	text_2: autoDraw = False
+299.4966 	EXP 	image_6: image = 'Images/Baby 6.jpg'
+299.4966 	EXP 	image_6: autoDraw = True
+299.6335 	DATA 	Keypress: 1
+299.6468 	EXP 	image_6: autoDraw = False
+299.6468 	EXP 	text_2: autoDraw = True
+300.1316 	EXP 	New trial (rep=0, index=67): {'ImageFile': 'Images/Rainbow 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.2286, 'Rand': 0.6206583722842239}
+300.1481 	EXP 	text_2: autoDraw = False
+300.1481 	EXP 	text_2: autoDraw = False
+300.1481 	EXP 	image_6: image = 'Images/Rainbow 1.jpg'
+300.1481 	EXP 	image_6: autoDraw = True
+300.3847 	DATA 	Keypress: 1
+300.3970 	EXP 	image_6: autoDraw = False
+300.3970 	EXP 	text_2: autoDraw = True
+300.8804 	EXP 	New trial (rep=0, index=68): {'ImageFile': 'Images/Police 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.4345, 'Rand': 0.718118724844543}
+300.8968 	EXP 	text_2: autoDraw = False
+300.8968 	EXP 	text_2: autoDraw = False
+300.8968 	EXP 	image_6: image = 'Images/Police 5.jpg'
+300.8968 	EXP 	image_6: autoDraw = True
+301.2022 	DATA 	Keypress: 1
+301.2139 	EXP 	image_6: autoDraw = False
+301.2139 	EXP 	text_2: autoDraw = True
+301.6974 	EXP 	New trial (rep=0, index=69): {'ImageFile': 'Images/Bird 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0495, 'Rand': 0.36312418635078825}
+301.7133 	EXP 	text_2: autoDraw = False
+301.7133 	EXP 	text_2: autoDraw = False
+301.7133 	EXP 	image_6: image = 'Images/Bird 3.jpg'
+301.7133 	EXP 	image_6: autoDraw = True
+301.8519 	DATA 	Keypress: 1
+301.8638 	EXP 	image_6: autoDraw = False
+301.8638 	EXP 	text_2: autoDraw = True
+302.3489 	EXP 	New trial (rep=0, index=70): {'ImageFile': 'Images/Dancing 7.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8813, 'Rand': 0.38822819326443003}
+302.3673 	EXP 	text_2: autoDraw = False
+302.3673 	EXP 	text_2: autoDraw = False
+302.3673 	EXP 	image_6: image = 'Images/Dancing 7.jpg'
+302.3673 	EXP 	image_6: autoDraw = True
+302.6027 	DATA 	Keypress: 1
+302.6140 	EXP 	image_6: autoDraw = False
+302.6140 	EXP 	text_2: autoDraw = True
+303.0985 	EXP 	New trial (rep=0, index=71): {'ImageFile': 'Images/Miserable pose 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.9754, 'Rand': 0.6764132965539015}
+303.1142 	EXP 	text_2: autoDraw = False
+303.1142 	EXP 	text_2: autoDraw = False
+303.1142 	EXP 	image_6: image = 'Images/Miserable pose 5.jpg'
+303.1142 	EXP 	image_6: autoDraw = True
+303.3024 	DATA 	Keypress: 1
+303.3139 	EXP 	image_6: autoDraw = False
+303.3139 	EXP 	text_2: autoDraw = True
+303.7989 	EXP 	New trial (rep=0, index=72): {'ImageFile': 'Images/Baby 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.1553, 'Rand': 0.36204129300835786}
+303.8167 	EXP 	text_2: autoDraw = False
+303.8167 	EXP 	text_2: autoDraw = False
+303.8167 	EXP 	image_6: image = 'Images/Baby 5.jpg'
+303.8167 	EXP 	image_6: autoDraw = True
+304.0826 	DATA 	Keypress: 1
+304.0966 	EXP 	image_6: autoDraw = False
+304.0966 	EXP 	text_2: autoDraw = True
+304.5820 	EXP 	New trial (rep=0, index=73): {'ImageFile': 'Images/Yarn 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.5645, 'Rand': 0.3650789138885251}
+304.5975 	EXP 	text_2: autoDraw = False
+304.5975 	EXP 	text_2: autoDraw = False
+304.5975 	EXP 	image_6: image = 'Images/Yarn 1.jpg'
+304.5975 	EXP 	image_6: autoDraw = True
+304.7845 	DATA 	Keypress: 1
+304.8139 	EXP 	image_6: autoDraw = False
+304.8139 	EXP 	text_2: autoDraw = True
+305.2996 	EXP 	New trial (rep=0, index=74): {'ImageFile': 'Images/Bloody knife 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.8704, 'Rand': 0.291674749984423}
+305.3213 	EXP 	text_2: autoDraw = False
+305.3213 	EXP 	text_2: autoDraw = False
+305.3213 	EXP 	image_6: image = 'Images/Bloody knife 1.jpg'
+305.3213 	EXP 	image_6: autoDraw = True
+305.4850 	DATA 	Keypress: 1
+305.4973 	EXP 	image_6: autoDraw = False
+305.4973 	EXP 	text_2: autoDraw = True
+305.9807 	EXP 	New trial (rep=0, index=75): {'ImageFile': 'Images/Car Accident 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.7945, 'Rand': 0.8674906689951463}
+305.9965 	EXP 	text_2: autoDraw = False
+305.9965 	EXP 	text_2: autoDraw = False
+305.9965 	EXP 	image_6: image = 'Images/Car Accident 3.jpg'
+305.9965 	EXP 	image_6: autoDraw = True
+306.2004 	DATA 	Keypress: 1
+306.2304 	EXP 	image_6: autoDraw = False
+306.2304 	EXP 	text_2: autoDraw = True
+306.7150 	EXP 	New trial (rep=0, index=76): {'ImageFile': 'Images/Sad pose 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.8282, 'Rand': 0.3022855928691909}
+306.7327 	EXP 	text_2: autoDraw = False
+306.7327 	EXP 	text_2: autoDraw = False
+306.7327 	EXP 	image_6: image = 'Images/Sad pose 4.jpg'
+306.7327 	EXP 	image_6: autoDraw = True
+307.0506 	DATA 	Keypress: 1
+307.0805 	EXP 	image_6: autoDraw = False
+307.0805 	EXP 	text_2: autoDraw = True
+307.5650 	EXP 	New trial (rep=0, index=77): {'ImageFile': 'Images/Flowers 7.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.7452, 'Rand': 0.6487310213844394}
+307.5816 	EXP 	text_2: autoDraw = False
+307.5816 	EXP 	text_2: autoDraw = False
+307.5816 	EXP 	image_6: image = 'Images/Flowers 7.jpg'
+307.5816 	EXP 	image_6: autoDraw = True
+307.7518 	DATA 	Keypress: 1
+307.7638 	EXP 	image_6: autoDraw = False
+307.7638 	EXP 	text_2: autoDraw = True
+308.2483 	EXP 	New trial (rep=0, index=78): {'ImageFile': 'Images/Explosion 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.4912, 'Rand': 0.9480903593822178}
+308.2659 	EXP 	text_2: autoDraw = False
+308.2659 	EXP 	text_2: autoDraw = False
+308.2659 	EXP 	image_6: image = 'Images/Explosion 4.jpg'
+308.2659 	EXP 	image_6: autoDraw = True
+308.4499 	DATA 	Keypress: 1
+308.4804 	EXP 	image_6: autoDraw = False
+308.4804 	EXP 	text_2: autoDraw = True
+308.9655 	EXP 	New trial (rep=0, index=79): {'ImageFile': 'Images/Wedding 6.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0481, 'Rand': 0.17558086858741717}
+308.9822 	EXP 	text_2: autoDraw = False
+308.9822 	EXP 	text_2: autoDraw = False
+308.9822 	EXP 	image_6: image = 'Images/Wedding 6.jpg'
+308.9822 	EXP 	image_6: autoDraw = True
+309.0696 	DATA 	Keypress: 1
+309.0806 	EXP 	image_6: autoDraw = False
+309.0806 	EXP 	text_2: autoDraw = True
+309.5655 	EXP 	New trial (rep=0, index=1): {'nRepsTask1': 1, 'nRepsTask2': 0}
+309.5663 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+309.5667 	EXP 	New trial (rep=0, index=0): None
+309.5805 	EXP 	text_2: autoDraw = False
+309.5805 	EXP 	text_2: autoDraw = False
+309.5805 	EXP 	text_4: autoDraw = True
+310.2682 	DATA 	Keypress: 1
+311.0338 	DATA 	Keypress: space
+311.0613 	EXP 	Imported ImagePractices1.xlsx as conditions, 10 conditions, 2 params
+311.0625 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+311.0631 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'Images/Goat 1.jpg', 'AnimateInanimate': 1}
+311.0793 	EXP 	text_4: autoDraw = False
+311.0793 	EXP 	image: image = 'Images/Goat 1.jpg'
+311.0793 	EXP 	image: autoDraw = True
+311.7923 	DATA 	Keypress: 1
+311.7980 	EXP 	image: autoDraw = False
+311.7980 	EXP 	text_2: autoDraw = True
+312.2819 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'Images/Happy face 2.jpg', 'AnimateInanimate': 1}
+312.2974 	EXP 	text_2: autoDraw = False
+312.2974 	EXP 	text_2: autoDraw = False
+312.2974 	EXP 	image: image = 'Images/Happy face 2.jpg'
+312.2974 	EXP 	image: autoDraw = True
+312.6722 	DATA 	Keypress: 1
+312.6805 	EXP 	image: autoDraw = False
+312.6805 	EXP 	text_2: autoDraw = True
+313.1647 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'Images/Storage 1.jpg', 'AnimateInanimate': 2}
+313.1806 	EXP 	text_2: autoDraw = False
+313.1806 	EXP 	text_2: autoDraw = False
+313.1806 	EXP 	image: image = 'Images/Storage 1.jpg'
+313.1806 	EXP 	image: autoDraw = True
+313.3852 	DATA 	Keypress: 1
+313.3970 	EXP 	image: autoDraw = False
+313.3970 	EXP 	text_2: autoDraw = True
+313.8814 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'Images/Gun 5.jpg', 'AnimateInanimate': 2}
+313.8970 	EXP 	text_2: autoDraw = False
+313.8970 	EXP 	text_2: autoDraw = False
+313.8970 	EXP 	image: image = 'Images/Gun 5.jpg'
+313.8970 	EXP 	image: autoDraw = True
+314.1672 	DATA 	Keypress: 1
+314.1802 	EXP 	image: autoDraw = False
+314.1802 	EXP 	text_2: autoDraw = True
+314.6658 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'Images/Dog 12.jpg', 'AnimateInanimate': 1}
+314.6842 	EXP 	text_2: autoDraw = False
+314.6842 	EXP 	text_2: autoDraw = False
+314.6842 	EXP 	image: image = 'Images/Dog 12.jpg'
+314.6842 	EXP 	image: autoDraw = True
+314.9877 	DATA 	Keypress: 1
+314.9972 	EXP 	image: autoDraw = False
+314.9972 	EXP 	text_2: autoDraw = True
+315.4818 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'Images/Lion 1.jpg', 'AnimateInanimate': 1}
+315.4989 	EXP 	text_2: autoDraw = False
+315.4989 	EXP 	text_2: autoDraw = False
+315.4989 	EXP 	image: image = 'Images/Lion 1.jpg'
+315.4989 	EXP 	image: autoDraw = True
+315.7866 	DATA 	Keypress: 1
+315.7971 	EXP 	image: autoDraw = False
+315.7971 	EXP 	text_2: autoDraw = True
+316.2813 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'Images/Monkey 1.jpg', 'AnimateInanimate': 1}
+316.2972 	EXP 	text_2: autoDraw = False
+316.2972 	EXP 	text_2: autoDraw = False
+316.2972 	EXP 	image: image = 'Images/Monkey 1.jpg'
+316.2972 	EXP 	image: autoDraw = True
+316.5023 	DATA 	Keypress: 1
+316.5136 	EXP 	image: autoDraw = False
+316.5136 	EXP 	text_2: autoDraw = True
+316.9981 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'Images/Sidewalk 3.jpg', 'AnimateInanimate': 2}
+317.0139 	EXP 	text_2: autoDraw = False
+317.0139 	EXP 	text_2: autoDraw = False
+317.0139 	EXP 	image: image = 'Images/Sidewalk 3.jpg'
+317.0139 	EXP 	image: autoDraw = True
+317.3525 	DATA 	Keypress: 1
+317.3807 	EXP 	image: autoDraw = False
+317.3807 	EXP 	text_2: autoDraw = True
+317.8652 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'Images/Office supplies 4.jpg', 'AnimateInanimate': 2}
+317.8820 	EXP 	text_2: autoDraw = False
+317.8820 	EXP 	text_2: autoDraw = False
+317.8820 	EXP 	image: image = 'Images/Office supplies 4.jpg'
+317.8820 	EXP 	image: autoDraw = True
+318.1662 	DATA 	Keypress: 1
+318.1801 	EXP 	image: autoDraw = False
+318.1801 	EXP 	text_2: autoDraw = True
+318.6647 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'Images/Money 1.jpg', 'AnimateInanimate': 2}
+318.6803 	EXP 	text_2: autoDraw = False
+318.6803 	EXP 	text_2: autoDraw = False
+318.6803 	EXP 	image: image = 'Images/Money 1.jpg'
+318.6803 	EXP 	image: autoDraw = True
+318.9829 	DATA 	Keypress: 1
+318.9966 	EXP 	image: autoDraw = False
+318.9966 	EXP 	text_2: autoDraw = True
+319.4975 	EXP 	text_2: autoDraw = False
+319.4975 	EXP 	text_2: autoDraw = False
+319.4975 	EXP 	text_6: autoDraw = True
+320.4873 	EXP 	Imported Original_Compiled_IAT.xlsx as conditions, 80 conditions, 4 params
+320.4882 	EXP 	Created sequence: random, trialTypes=80, nReps=1, seed=None
+320.4884 	EXP 	New trial (rep=0, index=0): {'ImageFile': 'Images/Fire 7.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.7007, 'Rand': 0.9501201046146629}
+320.4935 	DATA 	Keypress: space
+320.4975 	EXP 	text_6: autoDraw = False
+320.4975 	EXP 	image_2: image = 'Images/Fire 7.jpg'
+320.4975 	EXP 	image_2: autoDraw = True
+320.9658 	DATA 	Keypress: 1
+320.9798 	EXP 	image_2: autoDraw = False
+320.9798 	EXP 	text_2: autoDraw = True
+321.4654 	EXP 	New trial (rep=0, index=1): {'ImageFile': 'Images/Soldiers 7.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.5465, 'Rand': 0.7939157675664149}
+321.4822 	EXP 	text_2: autoDraw = False
+321.4822 	EXP 	text_2: autoDraw = False
+321.4822 	EXP 	image_2: image = 'Images/Soldiers 7.jpg'
+321.4822 	EXP 	image_2: autoDraw = True
+321.6692 	DATA 	Keypress: 1
+321.6806 	EXP 	image_2: autoDraw = False
+321.6806 	EXP 	text_2: autoDraw = True
+322.1645 	EXP 	New trial (rep=0, index=2): {'ImageFile': 'Images/Snake 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.4159, 'Rand': 0.1794277880411247}
+322.1800 	EXP 	text_2: autoDraw = False
+322.1800 	EXP 	text_2: autoDraw = False
+322.1800 	EXP 	image_2: image = 'Images/Snake 4.jpg'
+322.1800 	EXP 	image_2: autoDraw = True
+322.4169 	DATA 	Keypress: 1
+322.4473 	EXP 	image_2: autoDraw = False
+322.4473 	EXP 	text_2: autoDraw = True
+322.9319 	EXP 	New trial (rep=0, index=3): {'ImageFile': 'Images/Nature 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.1726, 'Rand': 0.7504641747893187}
+322.9476 	EXP 	text_2: autoDraw = False
+322.9476 	EXP 	text_2: autoDraw = False
+322.9476 	EXP 	image_2: image = 'Images/Nature 1.jpg'
+322.9476 	EXP 	image_2: autoDraw = True
+323.1829 	DATA 	Keypress: 1
+323.1968 	EXP 	image_2: autoDraw = False
+323.1968 	EXP 	text_2: autoDraw = True
+323.6821 	EXP 	New trial (rep=0, index=4): {'ImageFile': 'Images/Couple 8.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.7678, 'Rand': 0.9440175279065489}
+323.7005 	EXP 	text_2: autoDraw = False
+323.7005 	EXP 	image_2: image = 'Images/Couple 8.jpg'
+323.7005 	EXP 	image_2: autoDraw = True
+323.8854 	DATA 	Keypress: 1
+323.8968 	EXP 	image_2: autoDraw = False
+323.8968 	EXP 	text_2: autoDraw = True
+324.3831 	EXP 	New trial (rep=0, index=5): {'ImageFile': 'Images/Police 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.4345, 'Rand': 0.850994140315495}
+324.4004 	EXP 	text_2: autoDraw = False
+324.4004 	EXP 	text_2: autoDraw = False
+324.4004 	EXP 	image_2: image = 'Images/Police 5.jpg'
+324.4004 	EXP 	image_2: autoDraw = True
+324.6353 	DATA 	Keypress: 1
+324.6643 	EXP 	image_2: autoDraw = False
+324.6643 	EXP 	text_2: autoDraw = True
+325.1488 	EXP 	New trial (rep=0, index=6): {'ImageFile': 'Images/Galaxy 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.7867, 'Rand': 0.871390129257127}
+325.1657 	EXP 	text_2: autoDraw = False
+325.1657 	EXP 	text_2: autoDraw = False
+325.1657 	EXP 	image_2: image = 'Images/Galaxy 2.jpg'
+325.1657 	EXP 	image_2: autoDraw = True
+325.4026 	DATA 	Keypress: 1
+325.4140 	EXP 	image_2: autoDraw = False
+325.4140 	EXP 	text_2: autoDraw = True
+325.8985 	EXP 	New trial (rep=0, index=7): {'ImageFile': 'Images/Lake 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.3635, 'Rand': 0.012122517432576752}
+325.9159 	EXP 	text_2: autoDraw = False
+325.9159 	EXP 	text_2: autoDraw = False
+325.9159 	EXP 	image_2: image = 'Images/Lake 2.jpg'
+325.9159 	EXP 	image_2: autoDraw = True
+326.1851 	DATA 	Keypress: 1
+326.1971 	EXP 	image_2: autoDraw = False
+326.1971 	EXP 	text_2: autoDraw = True
+326.6817 	EXP 	New trial (rep=0, index=8): {'ImageFile': 'Images/Mother 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0784, 'Rand': 0.9132979139036188}
+326.6984 	EXP 	text_2: autoDraw = False
+326.6984 	EXP 	text_2: autoDraw = False
+326.6984 	EXP 	image_2: image = 'Images/Mother 1.jpg'
+326.6984 	EXP 	image_2: autoDraw = True
+326.8517 	DATA 	Keypress: 1
+326.8638 	EXP 	image_2: autoDraw = False
+326.8638 	EXP 	text_2: autoDraw = True
+327.3487 	EXP 	New trial (rep=0, index=9): {'ImageFile': 'Images/Mother 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9438, 'Rand': 0.9122496176418544}
+327.3648 	EXP 	text_2: autoDraw = False
+327.3648 	EXP 	text_2: autoDraw = False
+327.3648 	EXP 	image_2: image = 'Images/Mother 5.jpg'
+327.3648 	EXP 	image_2: autoDraw = True
+327.6026 	DATA 	Keypress: 1
+327.6139 	EXP 	image_2: autoDraw = False
+327.6139 	EXP 	text_2: autoDraw = True
+328.0987 	EXP 	New trial (rep=0, index=10): {'ImageFile': 'Images/Tornado 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.7192, 'Rand': 0.04515441392123898}
+328.1143 	EXP 	text_2: autoDraw = False
+328.1143 	EXP 	text_2: autoDraw = False
+328.1143 	EXP 	image_2: image = 'Images/Tornado 4.jpg'
+328.1143 	EXP 	image_2: autoDraw = True
+328.3550 	DATA 	Keypress: 1
+328.3644 	EXP 	image_2: autoDraw = False
+328.3644 	EXP 	text_2: autoDraw = True
+328.8473 	EXP 	New trial (rep=0, index=11): {'ImageFile': 'Images/Tornado 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.1274, 'Rand': 0.9673555153821882}
+328.8635 	EXP 	text_2: autoDraw = False
+328.8635 	EXP 	text_2: autoDraw = False
+328.8635 	EXP 	image_2: image = 'Images/Tornado 1.jpg'
+328.8635 	EXP 	image_2: autoDraw = True
+329.0845 	DATA 	Keypress: 1
+329.0971 	EXP 	image_2: autoDraw = False
+329.0971 	EXP 	text_2: autoDraw = True
+329.5821 	EXP 	New trial (rep=0, index=12): {'ImageFile': 'Images/Dog 18.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.1614, 'Rand': 0.7399603693185757}
+329.5987 	EXP 	text_2: autoDraw = False
+329.5987 	EXP 	text_2: autoDraw = False
+329.5987 	EXP 	image_2: image = 'Images/Dog 18.jpg'
+329.5987 	EXP 	image_2: autoDraw = True
+329.8356 	DATA 	Keypress: 1
+329.8634 	EXP 	image_2: autoDraw = False
+329.8634 	EXP 	text_2: autoDraw = True
+330.3485 	EXP 	New trial (rep=0, index=13): {'ImageFile': 'Images/Frustrated pose 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.3937, 'Rand': 0.7929639094339582}
+330.3637 	EXP 	text_2: autoDraw = False
+330.3637 	EXP 	text_2: autoDraw = False
+330.3637 	EXP 	image_2: image = 'Images/Frustrated pose 1.jpg'
+330.3637 	EXP 	image_2: autoDraw = True
+330.5876 	DATA 	Keypress: 1
+330.5966 	EXP 	image_2: autoDraw = False
+330.5966 	EXP 	text_2: autoDraw = True
+331.0829 	EXP 	New trial (rep=0, index=14): {'ImageFile': 'Images/Scared face 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 3.0377, 'Rand': 0.39989359561204807}
+331.1000 	EXP 	text_2: autoDraw = False
+331.1000 	EXP 	text_2: autoDraw = False
+331.1000 	EXP 	image_2: image = 'Images/Scared face 3.jpg'
+331.1000 	EXP 	image_2: autoDraw = True
+331.3657 	DATA 	Keypress: 1
+331.3802 	EXP 	image_2: autoDraw = False
+331.3802 	EXP 	text_2: autoDraw = True
+331.8650 	EXP 	New trial (rep=0, index=15): {'ImageFile': 'Images/Horse 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9469, 'Rand': 0.9714181382810801}
+331.8824 	EXP 	text_2: autoDraw = False
+331.8824 	EXP 	text_2: autoDraw = False
+331.8824 	EXP 	image_2: image = 'Images/Horse 1.jpg'
+331.8824 	EXP 	image_2: autoDraw = True
+332.1660 	DATA 	Keypress: 1
+332.1800 	EXP 	image_2: autoDraw = False
+332.1800 	EXP 	text_2: autoDraw = True
+332.6661 	EXP 	New trial (rep=0, index=16): {'ImageFile': 'Images/Intensity 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.8252, 'Rand': 0.013798226426593896}
+332.6804 	EXP 	text_2: autoDraw = False
+332.6804 	EXP 	text_2: autoDraw = False
+332.6804 	EXP 	image_2: image = 'Images/Intensity 1.jpg'
+332.6804 	EXP 	image_2: autoDraw = True
+332.9512 	DATA 	Keypress: 1
+332.9636 	EXP 	image_2: autoDraw = False
+332.9636 	EXP 	text_2: autoDraw = True
+333.4484 	EXP 	New trial (rep=0, index=17): {'ImageFile': 'Images/Dead bodies 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.2275, 'Rand': 0.7641621579010838}
+333.4644 	EXP 	text_2: autoDraw = False
+333.4644 	EXP 	text_2: autoDraw = False
+333.4644 	EXP 	image_2: image = 'Images/Dead bodies 2.jpg'
+333.4644 	EXP 	image_2: autoDraw = True
+333.7356 	DATA 	Keypress: 1
+333.7473 	EXP 	image_2: autoDraw = False
+333.7473 	EXP 	text_2: autoDraw = True
+334.2320 	EXP 	New trial (rep=0, index=18): {'ImageFile': 'Images/Sidewalk 6.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.7978, 'Rand': 0.6901193111063584}
+334.2494 	EXP 	text_2: autoDraw = False
+334.2494 	EXP 	text_2: autoDraw = False
+334.2494 	EXP 	image_2: image = 'Images/Sidewalk 6.jpg'
+334.2494 	EXP 	image_2: autoDraw = True
+334.9194 	DATA 	Keypress: 1
+334.9307 	EXP 	image_2: autoDraw = False
+334.9307 	EXP 	text_2: autoDraw = True
+335.4150 	EXP 	New trial (rep=0, index=19): {'ImageFile': 'Images/Bloody knife 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.8704, 'Rand': 0.40700126922211854}
+335.4315 	EXP 	text_2: autoDraw = False
+335.4315 	EXP 	text_2: autoDraw = False
+335.4315 	EXP 	image_2: image = 'Images/Bloody knife 1.jpg'
+335.4315 	EXP 	image_2: autoDraw = True
+335.9189 	DATA 	Keypress: 1
+335.9310 	EXP 	image_2: autoDraw = False
+335.9310 	EXP 	text_2: autoDraw = True
+336.4151 	EXP 	New trial (rep=0, index=20): {'ImageFile': 'Images/Weapon 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.8209, 'Rand': 0.6541081478461332}
+336.4462 	EXP 	text_2: autoDraw = False
+336.4462 	EXP 	text_2: autoDraw = False
+336.4462 	EXP 	image_2: image = 'Images/Weapon 1.jpg'
+336.4462 	EXP 	image_2: autoDraw = True
+336.7678 	DATA 	Keypress: 1
+336.7805 	EXP 	image_2: autoDraw = False
+336.7805 	EXP 	text_2: autoDraw = True
+337.2651 	EXP 	New trial (rep=0, index=21): {'ImageFile': 'Images/Hangover 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.3921, 'Rand': 0.5142622623412806}
+337.2808 	EXP 	text_2: autoDraw = False
+337.2808 	EXP 	text_2: autoDraw = False
+337.2808 	EXP 	image_2: image = 'Images/Hangover 1.jpg'
+337.2808 	EXP 	image_2: autoDraw = True
+337.6011 	DATA 	Keypress: 1
+337.6305 	EXP 	image_2: autoDraw = False
+337.6305 	EXP 	text_2: autoDraw = True
+338.1153 	EXP 	New trial (rep=0, index=22): {'ImageFile': 'Images/Elephant 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8272, 'Rand': 0.8577314539099176}
+338.1321 	EXP 	text_2: autoDraw = False
+338.1321 	EXP 	text_2: autoDraw = False
+338.1321 	EXP 	image_2: image = 'Images/Elephant 1.jpg'
+338.1321 	EXP 	image_2: autoDraw = True
+338.5367 	DATA 	Keypress: 1
+338.5473 	EXP 	image_2: autoDraw = False
+338.5473 	EXP 	text_2: autoDraw = True
+339.0326 	EXP 	New trial (rep=0, index=23): {'ImageFile': 'Images/Massage 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.7288, 'Rand': 0.09629380336666227}
+339.0506 	EXP 	text_2: autoDraw = False
+339.0506 	EXP 	text_2: autoDraw = False
+339.0506 	EXP 	image_2: image = 'Images/Massage 2.jpg'
+339.0506 	EXP 	image_2: autoDraw = True
+339.6009 	DATA 	Keypress: 1
+339.6306 	EXP 	image_2: autoDraw = False
+339.6306 	EXP 	text_2: autoDraw = True
+340.1161 	EXP 	New trial (rep=0, index=24): {'ImageFile': 'Images/Frustrated pose 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.481, 'Rand': 0.28553188401789653}
+340.1368 	EXP 	text_2: autoDraw = False
+340.1368 	EXP 	text_2: autoDraw = False
+340.1368 	EXP 	image_2: image = 'Images/Frustrated pose 5.jpg'
+340.1368 	EXP 	image_2: autoDraw = True
+340.4010 	DATA 	Keypress: 1
+340.4307 	EXP 	image_2: autoDraw = False
+340.4307 	EXP 	text_2: autoDraw = True
+340.9147 	EXP 	New trial (rep=0, index=25): {'ImageFile': 'Images/Cold 8.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.5742, 'Rand': 0.37572133397548513}
+340.9302 	EXP 	text_2: autoDraw = False
+340.9302 	EXP 	text_2: autoDraw = False
+340.9302 	EXP 	image_2: image = 'Images/Cold 8.jpg'
+340.9302 	EXP 	image_2: autoDraw = True
+341.2693 	DATA 	Keypress: 1
+341.2807 	EXP 	image_2: autoDraw = False
+341.2807 	EXP 	text_2: autoDraw = True
+341.7653 	EXP 	New trial (rep=0, index=26): {'ImageFile': 'Images/Birthday 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.5506, 'Rand': 0.43820828115997645}
+341.7824 	EXP 	text_2: autoDraw = False
+341.7824 	EXP 	text_2: autoDraw = False
+341.7824 	EXP 	image_2: image = 'Images/Birthday 3.jpg'
+341.7824 	EXP 	image_2: autoDraw = True
+342.1523 	DATA 	Keypress: 1
+342.1639 	EXP 	image_2: autoDraw = False
+342.1639 	EXP 	text_2: autoDraw = True
+342.6490 	EXP 	New trial (rep=0, index=27): {'ImageFile': 'Images/Injury 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.9865, 'Rand': 0.2889058122637327}
+342.6654 	EXP 	text_2: autoDraw = False
+342.6654 	EXP 	text_2: autoDraw = False
+342.6654 	EXP 	image_2: image = 'Images/Injury 1.jpg'
+342.6654 	EXP 	image_2: autoDraw = True
+343.6800 	EXP 	image_2: autoDraw = False
+343.6800 	EXP 	text_2: autoDraw = True
+343.7151 	DATA 	Keypress: 1
+344.1642 	EXP 	New trial (rep=0, index=28): {'ImageFile': 'Images/Wedding 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.7601, 'Rand': 0.3581969197952043}
+344.1805 	EXP 	text_2: autoDraw = False
+344.1805 	EXP 	image_2: image = 'Images/Wedding 2.jpg'
+344.1805 	EXP 	image_2: autoDraw = True
+344.6349 	DATA 	Keypress: 1
+344.6471 	EXP 	image_2: autoDraw = False
+344.6471 	EXP 	text_2: autoDraw = True
+345.1329 	EXP 	New trial (rep=0, index=29): {'ImageFile': 'Images/Baby 6.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0604, 'Rand': 0.26349201258450206}
+345.1503 	EXP 	text_2: autoDraw = False
+345.1503 	EXP 	text_2: autoDraw = False
+345.1503 	EXP 	image_2: image = 'Images/Baby 6.jpg'
+345.1503 	EXP 	image_2: autoDraw = True
+345.5350 	DATA 	Keypress: 1
+345.5473 	EXP 	image_2: autoDraw = False
+345.5473 	EXP 	text_2: autoDraw = True
+346.0306 	EXP 	New trial (rep=0, index=30): {'ImageFile': 'Images/Lake 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9732, 'Rand': 0.8722939171423078}
+346.0468 	EXP 	text_2: autoDraw = False
+346.0468 	EXP 	text_2: autoDraw = False
+346.0468 	EXP 	image_2: image = 'Images/Lake 3.jpg'
+346.0468 	EXP 	image_2: autoDraw = True
+346.7200 	DATA 	Keypress: 1
+346.7301 	EXP 	image_2: autoDraw = False
+346.7301 	EXP 	text_2: autoDraw = True
+347.2143 	EXP 	New trial (rep=0, index=31): {'ImageFile': 'Images/Galaxy 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.4342, 'Rand': 0.26067261265936803}
+347.2305 	EXP 	text_2: autoDraw = False
+347.2305 	EXP 	text_2: autoDraw = False
+347.2305 	EXP 	image_2: image = 'Images/Galaxy 4.jpg'
+347.2305 	EXP 	image_2: autoDraw = True
+347.6531 	DATA 	Keypress: 1
+347.6640 	EXP 	image_2: autoDraw = False
+347.6640 	EXP 	text_2: autoDraw = True
+348.1482 	EXP 	New trial (rep=0, index=32): {'ImageFile': 'Images/Fireworks 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.277, 'Rand': 0.9574516434771356}
+348.1635 	EXP 	text_2: autoDraw = False
+348.1635 	EXP 	text_2: autoDraw = False
+348.1635 	EXP 	image_2: image = 'Images/Fireworks 2.jpg'
+348.1635 	EXP 	image_2: autoDraw = True
+348.5054 	DATA 	Keypress: 1
+348.5145 	EXP 	image_2: autoDraw = False
+348.5145 	EXP 	text_2: autoDraw = True
+348.9991 	EXP 	New trial (rep=0, index=33): {'ImageFile': 'Images/Sad pose 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.8282, 'Rand': 0.528378645398541}
+349.0136 	EXP 	text_2: autoDraw = False
+349.0136 	EXP 	text_2: autoDraw = False
+349.0136 	EXP 	image_2: image = 'Images/Sad pose 4.jpg'
+349.0136 	EXP 	image_2: autoDraw = True
+349.4177 	DATA 	Keypress: 1
+349.4303 	EXP 	image_2: autoDraw = False
+349.4303 	EXP 	text_2: autoDraw = True
+349.9149 	EXP 	New trial (rep=0, index=34): {'ImageFile': 'Images/Flowers 9.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9383, 'Rand': 0.22049600562800176}
+349.9308 	EXP 	text_2: autoDraw = False
+349.9308 	EXP 	text_2: autoDraw = False
+349.9308 	EXP 	image_2: image = 'Images/Flowers 9.jpg'
+349.9308 	EXP 	image_2: autoDraw = True
+350.3691 	DATA 	Keypress: 1
+350.3973 	EXP 	image_2: autoDraw = False
+350.3973 	EXP 	text_2: autoDraw = True
+350.8818 	EXP 	New trial (rep=0, index=35): {'ImageFile': 'Images/Toilet 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.4986, 'Rand': 0.9878271272508732}
+350.8968 	EXP 	text_2: autoDraw = False
+350.8968 	EXP 	text_2: autoDraw = False
+350.8968 	EXP 	image_2: image = 'Images/Toilet 4.jpg'
+350.8968 	EXP 	image_2: autoDraw = True
+351.3862 	DATA 	Keypress: 1
+351.3974 	EXP 	image_2: autoDraw = False
+351.3974 	EXP 	text_2: autoDraw = True
+351.8819 	EXP 	New trial (rep=0, index=36): {'ImageFile': 'Images/Fireworks 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.0651, 'Rand': 0.4589846415575002}
+351.9015 	EXP 	text_2: autoDraw = False
+351.9015 	EXP 	text_2: autoDraw = False
+351.9015 	EXP 	image_2: image = 'Images/Fireworks 3.jpg'
+351.9015 	EXP 	image_2: autoDraw = True
+352.1525 	DATA 	Keypress: 1
+352.1640 	EXP 	image_2: autoDraw = False
+352.1640 	EXP 	text_2: autoDraw = True
+352.6476 	EXP 	New trial (rep=0, index=37): {'ImageFile': 'Images/Gun 6.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.9016, 'Rand': 0.31960683806099544}
+352.6634 	EXP 	text_2: autoDraw = False
+352.6634 	EXP 	text_2: autoDraw = False
+352.6634 	EXP 	image_2: image = 'Images/Gun 6.jpg'
+352.6634 	EXP 	image_2: autoDraw = True
+352.9678 	DATA 	Keypress: 1
+352.9804 	EXP 	image_2: autoDraw = False
+352.9804 	EXP 	text_2: autoDraw = True
+353.4658 	EXP 	New trial (rep=0, index=38): {'ImageFile': 'Images/Rainbow 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.2286, 'Rand': 0.6276019931043489}
+353.4827 	EXP 	text_2: autoDraw = False
+353.4827 	EXP 	text_2: autoDraw = False
+353.4827 	EXP 	image_2: image = 'Images/Rainbow 1.jpg'
+353.4827 	EXP 	image_2: autoDraw = True
+353.8506 	DATA 	Keypress: 1
+353.8807 	EXP 	image_2: autoDraw = False
+353.8807 	EXP 	text_2: autoDraw = True
+354.3650 	EXP 	New trial (rep=0, index=39): {'ImageFile': 'Images/Bird 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0495, 'Rand': 0.7060375059060603}
+354.3816 	EXP 	text_2: autoDraw = False
+354.3816 	EXP 	text_2: autoDraw = False
+354.3816 	EXP 	image_2: image = 'Images/Bird 3.jpg'
+354.3816 	EXP 	image_2: autoDraw = True
+354.9843 	DATA 	Keypress: 1
+354.9972 	EXP 	image_2: autoDraw = False
+354.9972 	EXP 	text_2: autoDraw = True
+355.4817 	EXP 	New trial (rep=0, index=40): {'ImageFile': 'Images/Frustrated pose 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.6481, 'Rand': 0.07843080009801606}
+355.4974 	EXP 	text_2: autoDraw = False
+355.4974 	EXP 	text_2: autoDraw = False
+355.4974 	EXP 	image_2: image = 'Images/Frustrated pose 2.jpg'
+355.4974 	EXP 	image_2: autoDraw = True
+355.5848 	DATA 	Keypress: 1
+355.5971 	EXP 	image_2: autoDraw = False
+355.5971 	EXP 	text_2: autoDraw = True
+356.0830 	EXP 	New trial (rep=0, index=41): {'ImageFile': 'Images/Flowers 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8142, 'Rand': 0.27529383981721267}
+356.1008 	EXP 	text_2: autoDraw = False
+356.1008 	EXP 	text_2: autoDraw = False
+356.1008 	EXP 	image_2: image = 'Images/Flowers 1.jpg'
+356.1008 	EXP 	image_2: autoDraw = True
+356.5676 	DATA 	Keypress: 1
+356.5973 	EXP 	image_2: autoDraw = False
+356.5973 	EXP 	text_2: autoDraw = True
+357.0819 	EXP 	New trial (rep=0, index=42): {'ImageFile': 'Images/Sleepy pose 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.603, 'Rand': 0.014083813044789784}
+357.0973 	EXP 	text_2: autoDraw = False
+357.0973 	EXP 	text_2: autoDraw = False
+357.0973 	EXP 	image_2: image = 'Images/Sleepy pose 1.jpg'
+357.0973 	EXP 	image_2: autoDraw = True
+357.4348 	DATA 	Keypress: 1
+357.4471 	EXP 	image_2: autoDraw = False
+357.4471 	EXP 	text_2: autoDraw = True
+357.9317 	EXP 	New trial (rep=0, index=43): {'ImageFile': 'Images/Bridge 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9383, 'Rand': 0.13339846379913733}
+357.9492 	EXP 	text_2: autoDraw = False
+357.9492 	EXP 	text_2: autoDraw = False
+357.9492 	EXP 	image_2: image = 'Images/Bridge 1.jpg'
+357.9492 	EXP 	image_2: autoDraw = True
+358.4337 	DATA 	Keypress: 1
+358.4635 	EXP 	image_2: autoDraw = False
+358.4635 	EXP 	text_2: autoDraw = True
+358.9476 	EXP 	New trial (rep=0, index=44): {'ImageFile': 'Images/Gun 10.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.5934, 'Rand': 0.8397215898320197}
+358.9634 	EXP 	text_2: autoDraw = False
+358.9634 	EXP 	text_2: autoDraw = False
+358.9634 	EXP 	image_2: image = 'Images/Gun 10.jpg'
+358.9634 	EXP 	image_2: autoDraw = True
+359.5536 	DATA 	Keypress: 1
+359.5641 	EXP 	image_2: autoDraw = False
+359.5641 	EXP 	text_2: autoDraw = True
+360.0492 	EXP 	New trial (rep=0, index=45): {'ImageFile': 'Images/Neonazi 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.0577, 'Rand': 0.4286272595660632}
+360.0671 	EXP 	text_2: autoDraw = False
+360.0671 	EXP 	text_2: autoDraw = False
+360.0671 	EXP 	image_2: image = 'Images/Neonazi 1.jpg'
+360.0671 	EXP 	image_2: autoDraw = True
+360.2491 	DATA 	Keypress: 1
+360.2634 	EXP 	image_2: autoDraw = False
+360.2634 	EXP 	text_2: autoDraw = True
+360.7490 	EXP 	New trial (rep=0, index=46): {'ImageFile': 'Images/Destruction 10.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.0682, 'Rand': 0.33267433135769797}
+360.7637 	EXP 	text_2: autoDraw = False
+360.7637 	EXP 	image_2: image = 'Images/Destruction 10.jpg'
+360.7637 	EXP 	image_2: autoDraw = True
+361.4516 	DATA 	Keypress: 1
+361.4807 	EXP 	image_2: autoDraw = False
+361.4807 	EXP 	text_2: autoDraw = True
+361.9656 	EXP 	New trial (rep=0, index=47): {'ImageFile': 'Images/Yarn 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.5645, 'Rand': 0.1548831621525235}
+361.9803 	EXP 	text_2: autoDraw = False
+361.9803 	EXP 	text_2: autoDraw = False
+361.9803 	EXP 	image_2: image = 'Images/Yarn 1.jpg'
+361.9803 	EXP 	image_2: autoDraw = True
+362.3683 	DATA 	Keypress: 1
+362.3974 	EXP 	image_2: autoDraw = False
+362.3974 	EXP 	text_2: autoDraw = True
+362.8831 	EXP 	New trial (rep=0, index=48): {'ImageFile': 'Images/Sad pose 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.8801, 'Rand': 0.9379640962640362}
+362.8982 	EXP 	text_2: autoDraw = False
+362.8982 	EXP 	text_2: autoDraw = False
+362.8982 	EXP 	image_2: image = 'Images/Sad pose 1.jpg'
+362.8982 	EXP 	image_2: autoDraw = True
+363.1043 	DATA 	Keypress: 1
+363.1144 	EXP 	image_2: autoDraw = False
+363.1144 	EXP 	text_2: autoDraw = True
+363.5974 	EXP 	New trial (rep=0, index=49): {'ImageFile': 'Images/Cat 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.1842, 'Rand': 0.2993849771344371}
+363.6135 	EXP 	text_2: autoDraw = False
+363.6135 	EXP 	text_2: autoDraw = False
+363.6135 	EXP 	image_2: image = 'Images/Cat 5.jpg'
+363.6135 	EXP 	image_2: autoDraw = True
+363.7682 	DATA 	Keypress: 1
+363.7804 	EXP 	image_2: autoDraw = False
+363.7804 	EXP 	text_2: autoDraw = True
+364.2662 	EXP 	New trial (rep=0, index=50): {'ImageFile': 'Images/Jail 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 3.0599, 'Rand': 0.07486446158300541}
+364.2816 	EXP 	text_2: autoDraw = False
+364.2816 	EXP 	text_2: autoDraw = False
+364.2816 	EXP 	image_2: image = 'Images/Jail 5.jpg'
+364.2816 	EXP 	image_2: autoDraw = True
+364.4695 	DATA 	Keypress: 1
+364.4807 	EXP 	image_2: autoDraw = False
+364.4807 	EXP 	text_2: autoDraw = True
+364.9652 	EXP 	New trial (rep=0, index=51): {'ImageFile': 'Images/Miserable pose 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.579, 'Rand': 0.41254038389301795}
+364.9810 	EXP 	text_2: autoDraw = False
+364.9810 	EXP 	text_2: autoDraw = False
+364.9810 	EXP 	image_2: image = 'Images/Miserable pose 1.jpg'
+364.9810 	EXP 	image_2: autoDraw = True
+365.2690 	DATA 	Keypress: 1
+365.2806 	EXP 	image_2: autoDraw = False
+365.2806 	EXP 	text_2: autoDraw = True
+365.7659 	EXP 	New trial (rep=0, index=52): {'ImageFile': 'Images/Car Accident 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.7945, 'Rand': 0.7732278009857427}
+365.7958 	EXP 	text_2: autoDraw = False
+365.7958 	EXP 	text_2: autoDraw = False
+365.7958 	EXP 	image_2: image = 'Images/Car Accident 3.jpg'
+365.7958 	EXP 	image_2: autoDraw = True
+366.0837 	DATA 	Keypress: 1
+366.0970 	EXP 	image_2: autoDraw = False
+366.0970 	EXP 	text_2: autoDraw = True
+366.5818 	EXP 	New trial (rep=0, index=53): {'ImageFile': 'Images/Miserable pose 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.5702, 'Rand': 0.4458257869062262}
+366.5974 	EXP 	text_2: autoDraw = False
+366.5974 	EXP 	text_2: autoDraw = False
+366.5974 	EXP 	image_2: image = 'Images/Miserable pose 4.jpg'
+366.5974 	EXP 	image_2: autoDraw = True
+366.9189 	DATA 	Keypress: 1
+366.9306 	EXP 	image_2: autoDraw = False
+366.9306 	EXP 	text_2: autoDraw = True
+367.4150 	EXP 	New trial (rep=0, index=54): {'ImageFile': 'Images/Cat 4.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.798, 'Rand': 0.06333628944787684}
+367.4321 	EXP 	text_2: autoDraw = False
+367.4321 	EXP 	text_2: autoDraw = False
+367.4321 	EXP 	image_2: image = 'Images/Cat 4.jpg'
+367.4321 	EXP 	image_2: autoDraw = True
+367.9852 	DATA 	Keypress: 1
+367.9972 	EXP 	image_2: autoDraw = False
+367.9972 	EXP 	text_2: autoDraw = True
+368.4807 	EXP 	New trial (rep=0, index=55): {'ImageFile': 'Images/Excited face 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8009, 'Rand': 0.7619008012508488}
+368.4967 	EXP 	text_2: autoDraw = False
+368.4967 	EXP 	text_2: autoDraw = False
+368.4967 	EXP 	image_2: image = 'Images/Excited face 2.jpg'
+368.4967 	EXP 	image_2: autoDraw = True
+369.0686 	DATA 	Keypress: 1
+369.0806 	EXP 	image_2: autoDraw = False
+369.0806 	EXP 	text_2: autoDraw = True
+369.5653 	EXP 	New trial (rep=0, index=56): {'ImageFile': 'Images/Lake 10.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.125, 'Rand': 0.9853027217264094}
+369.5812 	EXP 	text_2: autoDraw = False
+369.5812 	EXP 	text_2: autoDraw = False
+369.5812 	EXP 	image_2: image = 'Images/Lake 10.jpg'
+369.5812 	EXP 	image_2: autoDraw = True
+370.5811 	EXP 	image_2: autoDraw = False
+370.5811 	EXP 	image_2: autoDraw = False
+370.5811 	EXP 	text_2: autoDraw = True
+370.6017 	DATA 	Keypress: 1
+371.0640 	EXP 	New trial (rep=0, index=57): {'ImageFile': 'Images/Dancing 7.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.8813, 'Rand': 0.6297471826735491}
+371.0801 	EXP 	text_2: autoDraw = False
+371.0801 	EXP 	text_2: autoDraw = False
+371.0801 	EXP 	image_2: image = 'Images/Dancing 7.jpg'
+371.0801 	EXP 	image_2: autoDraw = True
+371.3347 	DATA 	Keypress: 1
+371.3470 	EXP 	image_2: autoDraw = False
+371.3470 	EXP 	text_2: autoDraw = True
+371.8325 	EXP 	New trial (rep=0, index=58): {'ImageFile': 'Images/Lake 12.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.4088, 'Rand': 0.5730295514381429}
+371.8498 	EXP 	text_2: autoDraw = False
+371.8498 	EXP 	text_2: autoDraw = False
+371.8498 	EXP 	image_2: image = 'Images/Lake 12.jpg'
+371.8498 	EXP 	image_2: autoDraw = True
+372.4528 	DATA 	Keypress: 1
+372.4641 	EXP 	image_2: autoDraw = False
+372.4641 	EXP 	text_2: autoDraw = True
+372.9475 	EXP 	New trial (rep=0, index=59): {'ImageFile': 'Images/Dog 19.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9814, 'Rand': 0.7804812252252693}
+372.9635 	EXP 	text_2: autoDraw = False
+372.9635 	EXP 	text_2: autoDraw = False
+372.9635 	EXP 	image_2: image = 'Images/Dog 19.jpg'
+372.9635 	EXP 	image_2: autoDraw = True
+373.2829 	DATA 	Keypress: 1
+373.2969 	EXP 	image_2: autoDraw = False
+373.2969 	EXP 	text_2: autoDraw = True
+373.7827 	EXP 	New trial (rep=0, index=60): {'ImageFile': 'Images/Beach 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 6.2944, 'Rand': 0.9767776457796615}
+373.7972 	EXP 	text_2: autoDraw = False
+373.7972 	EXP 	text_2: autoDraw = False
+373.7972 	EXP 	image_2: image = 'Images/Beach 2.jpg'
+373.7972 	EXP 	image_2: autoDraw = True
+374.1690 	DATA 	Keypress: 1
+374.1974 	EXP 	image_2: autoDraw = False
+374.1974 	EXP 	text_2: autoDraw = True
+374.6819 	EXP 	New trial (rep=0, index=61): {'ImageFile': 'Images/Jail 2.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.9691, 'Rand': 0.03156789597965182}
+374.6967 	EXP 	text_2: autoDraw = False
+374.6967 	EXP 	text_2: autoDraw = False
+374.6967 	EXP 	image_2: image = 'Images/Jail 2.jpg'
+374.6967 	EXP 	image_2: autoDraw = True
+375.0855 	DATA 	Keypress: 1
+375.0972 	EXP 	image_2: autoDraw = False
+375.0972 	EXP 	text_2: autoDraw = True
+375.5820 	EXP 	New trial (rep=0, index=62): {'ImageFile': 'Images/Picnic 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0998, 'Rand': 0.013197503905397312}
+375.5990 	EXP 	text_2: autoDraw = False
+375.5990 	EXP 	text_2: autoDraw = False
+375.5990 	EXP 	image_2: image = 'Images/Picnic 1.jpg'
+375.5990 	EXP 	image_2: autoDraw = True
+375.6521 	DATA 	Keypress: 1
+375.6639 	EXP 	image_2: autoDraw = False
+375.6639 	EXP 	text_2: autoDraw = True
+376.1488 	EXP 	New trial (rep=0, index=63): {'ImageFile': 'Images/Wedding 6.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.0481, 'Rand': 0.4733426449134829}
+376.1656 	EXP 	text_2: autoDraw = False
+376.1656 	EXP 	text_2: autoDraw = False
+376.1656 	EXP 	image_2: image = 'Images/Wedding 6.jpg'
+376.1656 	EXP 	image_2: autoDraw = True
+376.3666 	DATA 	Keypress: 1
+376.3802 	EXP 	image_2: autoDraw = False
+376.3802 	EXP 	text_2: autoDraw = True
+376.8655 	EXP 	New trial (rep=0, index=64): {'ImageFile': 'Images/Explosion 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.4912, 'Rand': 0.7741769511985449}
+376.8961 	EXP 	text_2: autoDraw = False
+376.8961 	EXP 	image_2: image = 'Images/Explosion 4.jpg'
+376.8961 	EXP 	image_2: autoDraw = True
+377.1019 	DATA 	Keypress: 1
+377.1138 	EXP 	image_2: autoDraw = False
+377.1138 	EXP 	text_2: autoDraw = True
+377.5990 	EXP 	New trial (rep=0, index=65): {'ImageFile': 'Images/Dog 2.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9348, 'Rand': 0.1385016610476738}
+377.6156 	EXP 	text_2: autoDraw = False
+377.6156 	EXP 	text_2: autoDraw = False
+377.6156 	EXP 	image_2: image = 'Images/Dog 2.jpg'
+377.6156 	EXP 	image_2: autoDraw = True
+377.8696 	DATA 	Keypress: 1
+377.8807 	EXP 	image_2: autoDraw = False
+377.8807 	EXP 	text_2: autoDraw = True
+378.3640 	EXP 	New trial (rep=0, index=66): {'ImageFile': 'Images/Explosion 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.7061, 'Rand': 0.09556197736042626}
+378.3801 	EXP 	text_2: autoDraw = False
+378.3801 	EXP 	text_2: autoDraw = False
+378.3801 	EXP 	image_2: image = 'Images/Explosion 1.jpg'
+378.3801 	EXP 	image_2: autoDraw = True
+378.6522 	DATA 	Keypress: 1
+378.6640 	EXP 	image_2: autoDraw = False
+378.6640 	EXP 	text_2: autoDraw = True
+379.1488 	EXP 	New trial (rep=0, index=67): {'ImageFile': 'Images/War 8.jpg', 'AnimateInanimate': 1, 'ValenceScore': 1.7473, 'Rand': 0.10290094730872323}
+379.1653 	EXP 	text_2: autoDraw = False
+379.1653 	EXP 	text_2: autoDraw = False
+379.1653 	EXP 	image_2: image = 'Images/War 8.jpg'
+379.1653 	EXP 	image_2: autoDraw = True
+379.5342 	DATA 	Keypress: 1
+379.5472 	EXP 	image_2: autoDraw = False
+379.5472 	EXP 	text_2: autoDraw = True
+380.0332 	EXP 	New trial (rep=0, index=68): {'ImageFile': 'Images/Dirt 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 1.6168, 'Rand': 0.6695803900912131}
+380.0506 	EXP 	text_2: autoDraw = False
+380.0506 	EXP 	text_2: autoDraw = False
+380.0506 	EXP 	image_2: image = 'Images/Dirt 1.jpg'
+380.0506 	EXP 	image_2: autoDraw = True
+380.4522 	DATA 	Keypress: 1
+380.4640 	EXP 	image_2: autoDraw = False
+380.4640 	EXP 	text_2: autoDraw = True
+380.9486 	EXP 	New trial (rep=0, index=69): {'ImageFile': 'Images/Wedding 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8256, 'Rand': 0.09293607626529377}
+380.9644 	EXP 	text_2: autoDraw = False
+380.9644 	EXP 	text_2: autoDraw = False
+380.9644 	EXP 	image_2: image = 'Images/Wedding 4.jpg'
+380.9644 	EXP 	image_2: autoDraw = True
+381.2827 	DATA 	Keypress: 1
+381.2971 	EXP 	image_2: autoDraw = False
+381.2971 	EXP 	text_2: autoDraw = True
+381.7818 	EXP 	New trial (rep=0, index=70): {'ImageFile': 'Images/Destruction 5.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.1143, 'Rand': 0.6225236117358539}
+381.7988 	EXP 	text_2: autoDraw = False
+381.7988 	EXP 	text_2: autoDraw = False
+381.7988 	EXP 	image_2: image = 'Images/Destruction 5.jpg'
+381.7988 	EXP 	image_2: autoDraw = True
+382.1683 	DATA 	Keypress: 1
+382.1805 	EXP 	image_2: autoDraw = False
+382.1805 	EXP 	text_2: autoDraw = True
+382.6651 	EXP 	New trial (rep=0, index=71): {'ImageFile': 'Images/Flowers 7.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.7452, 'Rand': 0.4154522113949739}
+382.6808 	EXP 	text_2: autoDraw = False
+382.6808 	EXP 	text_2: autoDraw = False
+382.6808 	EXP 	image_2: image = 'Images/Flowers 7.jpg'
+382.6808 	EXP 	image_2: autoDraw = True
+383.1337 	DATA 	Keypress: 1
+383.1469 	EXP 	image_2: autoDraw = False
+383.1469 	EXP 	text_2: autoDraw = True
+383.6324 	EXP 	New trial (rep=0, index=72): {'ImageFile': 'Images/Flowers 1.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.8142, 'Rand': 0.5470930681193592}
+383.6626 	EXP 	text_2: autoDraw = False
+383.6626 	EXP 	text_2: autoDraw = False
+383.6626 	EXP 	image_2: image = 'Images/Flowers 1.jpg'
+383.6626 	EXP 	image_2: autoDraw = True
+384.0839 	DATA 	Keypress: 1
+384.0970 	EXP 	image_2: autoDraw = False
+384.0970 	EXP 	text_2: autoDraw = True
+384.5821 	EXP 	New trial (rep=0, index=73): {'ImageFile': 'Images/Angry face 3.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.5188, 'Rand': 0.21834471638364283}
+384.5985 	EXP 	text_2: autoDraw = False
+384.5985 	EXP 	text_2: autoDraw = False
+384.5985 	EXP 	image_2: image = 'Images/Angry face 3.jpg'
+384.5985 	EXP 	image_2: autoDraw = True
+384.9521 	DATA 	Keypress: 1
+384.9642 	EXP 	image_2: autoDraw = False
+384.9642 	EXP 	text_2: autoDraw = True
+385.4484 	EXP 	New trial (rep=0, index=74): {'ImageFile': 'Images/Baby 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 6.1553, 'Rand': 0.31383362377021096}
+385.4641 	EXP 	text_2: autoDraw = False
+385.4641 	EXP 	text_2: autoDraw = False
+385.4641 	EXP 	image_2: image = 'Images/Baby 5.jpg'
+385.4641 	EXP 	image_2: autoDraw = True
+385.9521 	DATA 	Keypress: 1
+385.9639 	EXP 	image_2: autoDraw = False
+385.9639 	EXP 	text_2: autoDraw = True
+386.4482 	EXP 	New trial (rep=0, index=75): {'ImageFile': 'Images/Bird 1.jpg', 'AnimateInanimate': 1, 'ValenceScore': 5.9051, 'Rand': 0.992895090151792}
+386.4640 	EXP 	text_2: autoDraw = False
+386.4640 	EXP 	text_2: autoDraw = False
+386.4640 	EXP 	image_2: image = 'Images/Bird 1.jpg'
+386.4640 	EXP 	image_2: autoDraw = True
+387.3049 	DATA 	Keypress: 1
+387.3147 	EXP 	image_2: autoDraw = False
+387.3147 	EXP 	text_2: autoDraw = True
+387.7982 	EXP 	New trial (rep=0, index=76): {'ImageFile': 'Images/Garbage dump 3.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.0219, 'Rand': 0.5707894112816823}
+387.8140 	EXP 	text_2: autoDraw = False
+387.8140 	EXP 	text_2: autoDraw = False
+387.8140 	EXP 	image_2: image = 'Images/Garbage dump 3.jpg'
+387.8140 	EXP 	image_2: autoDraw = True
+388.0515 	DATA 	Keypress: 1
+388.0638 	EXP 	image_2: autoDraw = False
+388.0638 	EXP 	text_2: autoDraw = True
+388.5486 	EXP 	New trial (rep=0, index=77): {'ImageFile': 'Images/Flowers 6.jpg', 'AnimateInanimate': 2, 'ValenceScore': 5.9556, 'Rand': 0.12977858521545838}
+388.5645 	EXP 	text_2: autoDraw = False
+388.5645 	EXP 	text_2: autoDraw = False
+388.5645 	EXP 	image_2: image = 'Images/Flowers 6.jpg'
+388.5645 	EXP 	image_2: autoDraw = True
+389.0337 	DATA 	Keypress: 1
+389.0639 	EXP 	image_2: autoDraw = False
+389.0639 	EXP 	text_2: autoDraw = True
+389.5485 	EXP 	New trial (rep=0, index=78): {'ImageFile': 'Images/Miserable pose 5.jpg', 'AnimateInanimate': 1, 'ValenceScore': 2.9754, 'Rand': 0.5707540209244515}
+389.5635 	EXP 	text_2: autoDraw = False
+389.5635 	EXP 	text_2: autoDraw = False
+389.5635 	EXP 	image_2: image = 'Images/Miserable pose 5.jpg'
+389.5635 	EXP 	image_2: autoDraw = True
+389.8691 	DATA 	Keypress: 1
+389.8805 	EXP 	image_2: autoDraw = False
+389.8805 	EXP 	text_2: autoDraw = True
+390.3665 	EXP 	New trial (rep=0, index=79): {'ImageFile': 'Images/Gun 4.jpg', 'AnimateInanimate': 2, 'ValenceScore': 2.9016, 'Rand': 0.1467485923469446}
+390.3815 	EXP 	text_2: autoDraw = False
+390.3815 	EXP 	text_2: autoDraw = False
+390.3815 	EXP 	image_2: image = 'Images/Gun 4.jpg'
+390.3815 	EXP 	image_2: autoDraw = True
+390.5491 	DATA 	Keypress: 1
+390.5634 	EXP 	image_2: autoDraw = False
+390.5634 	EXP 	text_2: autoDraw = True
+391.0492 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+391.0635 	EXP 	text_2: autoDraw = False
+391.0635 	EXP 	text_2: autoDraw = False
+391.0635 	EXP 	text_3: autoDraw = True
+391.3982 	DATA 	Keypress: 1
+393.1982 	DATA 	Keypress: space
+393.2135 	EXP 	text_3: autoDraw = False
+393.2666 	EXP 	window1: mouseVisible = True
