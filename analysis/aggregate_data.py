@@ -16,6 +16,7 @@ columns = [
     "participant",
     "session",
     "group",
+    "ImageFile",
     "AnimateInanimate",
     "ValenceScore",
     "img.animacy",
@@ -98,7 +99,7 @@ for fp in glob:
     dat["joy.reversed"] = dat["joystick_3.t_r"].notna().fillna(~dat["joystick_4.t_o"].notna())
     dat["img.started"] = dat["image.started"].fillna(dat["image_2.started"]).fillna(dat["image_6.started"]).fillna(dat["image_7.started"])
     # dat = dat.dropna(subset="joy.time")
-    dat = dat.dropna(subset="joy.time_list")
+    dat = dat.dropna(subset=["joy.time_list"])
 
     # Get psychopy's joystick RT
     # dat["joy.rt"] = dat["joy.time"].sub(dat["img.started"])
@@ -113,8 +114,11 @@ for fp in glob:
     dat["joy.animacy"] = dat.apply(get_response_animacy, axis=1)
     dat["joy.accuracy"] = dat["joy.animacy"].eq(dat["img.animacy"])
 
+    # Clean image name
+    dat["ImageFile"] = dat["ImageFile"].str.split("Images/").str[-1].str.split(".jpg").str[0]
+
     # Remove trials that did not get a clear push or pull response.
-    dat = dat.dropna(subset="joy.animacy")
+    dat = dat.dropna(subset=["joy.animacy"])
 
     data.append(dat[columns])
 
